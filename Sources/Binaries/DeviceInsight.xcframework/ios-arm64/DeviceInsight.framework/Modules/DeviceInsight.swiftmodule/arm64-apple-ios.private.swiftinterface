@@ -1,0 +1,32 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DeviceInsight
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AuthenticationServices
+import CoreTelephony
+@_exported import DeviceInsight
+import Foundation
+import Security
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class DeviceInsightCollector {
+  public init()
+  public func collect() -> (Swift.String?, Swift.Int?)
+  public func collectAsync() async -> (Swift.String?, Swift.Int?)
+  public func version() -> Swift.String
+  public func versionAsync() async -> Swift.String
+  @objc deinit
+}
+extension Swift.Equatable {
+  public func isEqualTo(_ rhs: Any) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc public class DeviceInsightCollectorObjc : ObjectiveC.NSObject {
+  @objc public func version() -> Swift.String
+  @objc public func collect() -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}

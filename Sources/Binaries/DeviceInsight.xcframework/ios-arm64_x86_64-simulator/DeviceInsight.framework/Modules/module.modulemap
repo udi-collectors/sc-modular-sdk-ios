@@ -1,0 +1,11 @@
+framework module DeviceInsight {
+  umbrella header "DeviceInsight.h"
+  export *
+
+  module * { export * }
+}
+
+module DeviceInsight.Swift {
+  header "DeviceInsight-Swift.h"
+  requires objc
+}

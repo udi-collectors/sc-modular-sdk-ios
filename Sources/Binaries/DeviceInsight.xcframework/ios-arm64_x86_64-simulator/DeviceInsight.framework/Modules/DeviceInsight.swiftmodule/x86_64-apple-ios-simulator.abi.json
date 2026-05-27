@@ -1,0 +1,949 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DeviceInsight",
+    "printedName": "DeviceInsight",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInsightCollector",
+        "printedName": "DeviceInsightCollector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInsightCollector",
+                "printedName": "DeviceInsight.DeviceInsightCollector",
+                "usr": "s:13DeviceInsight0aB9CollectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DeviceInsight0aB9CollectorCACycfc",
+            "mangledName": "$s13DeviceInsight0aB9CollectorCACycfc",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collect",
+            "printedName": "collect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String?, Swift.Int?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DeviceInsight0aB9CollectorC7collectSSSg_SiSgtyF",
+            "mangledName": "$s13DeviceInsight0aB9CollectorC7collectSSSg_SiSgtyF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectAsync",
+            "printedName": "collectAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String?, Swift.Int?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DeviceInsight0aB9CollectorC12collectAsyncSSSg_SiSgtyYaF",
+            "mangledName": "$s13DeviceInsight0aB9CollectorC12collectAsyncSSSg_SiSgtyYaF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "version",
+            "printedName": "version()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DeviceInsight0aB9CollectorC7versionSSyF",
+            "mangledName": "$s13DeviceInsight0aB9CollectorC7versionSSyF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "versionAsync",
+            "printedName": "versionAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DeviceInsight0aB9CollectorC12versionAsyncSSyYaF",
+            "mangledName": "$s13DeviceInsight0aB9CollectorC12versionAsyncSSyYaF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DeviceInsight0aB9CollectorC",
+        "mangledName": "$s13DeviceInsight0aB9CollectorC",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInsightCollectorObjc",
+        "printedName": "DeviceInsightCollectorObjc",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "version",
+            "printedName": "version()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeviceInsight@objc(cs)DeviceInsightCollectorObjc(im)version",
+            "mangledName": "$s13DeviceInsight0aB13CollectorObjcC7versionSSyF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collect",
+            "printedName": "collect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeviceInsight@objc(cs)DeviceInsightCollectorObjc(im)collect",
+            "mangledName": "$s13DeviceInsight0aB13CollectorObjcC7collectSSSgyF",
+            "moduleName": "DeviceInsight",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInsightCollectorObjc",
+                "printedName": "DeviceInsight.DeviceInsightCollectorObjc",
+                "usr": "c:@M@DeviceInsight@objc(cs)DeviceInsightCollectorObjc"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeviceInsight@objc(cs)DeviceInsightCollectorObjc(im)init",
+            "mangledName": "$s13DeviceInsight0aB13CollectorObjcCACycfc",
+            "moduleName": "DeviceInsight",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeviceInsight@objc(cs)DeviceInsightCollectorObjc",
+        "mangledName": "$s13DeviceInsight0aB13CollectorObjcC",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceInsight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Equatable",
+        "printedName": "Equatable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isEqualTo",
+            "printedName": "isEqualTo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SQ13DeviceInsightE9isEqualToySbypF",
+            "mangledName": "$sSQ13DeviceInsightE9isEqualToySbypF",
+            "moduleName": "DeviceInsight",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<Self where Self : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:SQ",
+        "mangledName": "$sSQ",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 3,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 3,
+      "value": "206"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 3,
+      "value": "207"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 3,
+      "value": "208"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 3,
+      "value": "209"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 888,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 933,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 975,
+      "length": 3,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1087,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 3,
+      "value": "206"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1210,
+      "length": 3,
+      "value": "207"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1282,
+      "length": 3,
+      "value": "208"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 3,
+      "value": "209"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1375,
+      "length": 3,
+      "value": "310"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1413,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1461,
+      "length": 3,
+      "value": "330"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1504,
+      "length": 3,
+      "value": "340"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1548,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1592,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/CollectionStatus.swift",
+      "kind": "Array",
+      "offset": 1677,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/TF1KeychainItemWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 802,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/TF1KeychainItemWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 852,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Payload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Payload.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 5,
+      "value": "\"028\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Payload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 3,
+      "value": "118"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Payload.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 5,
+      "value": "\"TF1\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/NonPersistentCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/NonPersistentCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/NonPersistentCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/PersistentCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 3,
+      "value": "\"9\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 3,
+      "value": "\"a\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 3,
+      "value": "\"z\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/DeviceInsightUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 9,
+      "value": "\"*+-.\/@_\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 7,
+      "value": "\"8.0.3\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 86984,
+      "value": "\"(function(O){var u,I,x,Q,W,P,M,D,X,E,v,H,Y,Z,aa,ba,C,J,K,F,ca,da,G,z,ea,fa,ga,y;u=function(d){function h(a,b){return\"string\"===typeof a&&\"string\"===typeof b&&a.length>=b.length?a.substring(0,b.length)===b:!1}function c(l){if(!a.test(l))throw Error();l=l.split(\".\");for(var b=window,c=0;c<l.length;c++)b=b[l[c]];return b}var f=\/^\\\/\\\/\/,b=\/^[^:]+:\/,e=\/^https?:\\\/\\\/[^\\\/]+\/,g=\/ (?:MSIE |Trident\\\/7\\.0;.* rv:)(\\d+)\/,a=\/^[^.]+(?:\\.[^.]+)*$\/;return{ga:d,startsWith:h,endsWith:function(a,b){return\"string\"===typeof a&&\n\"string\"===typeof b&&a.length>=b.length?-1!==a.indexOf(b,a.length-b.length):!1},N:function(a){for(var b=\"\",g=0;g<a.length;){try{if(b=c(a[g]))return b}catch(e){}g++}return\"\"},f:c,Ga:function(a){f.test(a)&&(a=document.URL.match(b)[0]+a);return(a=a.match(e))&&!h(document.URL,a[0])?!1:!0},ha:function(){var a=navigator.userAgent.match(g);return a?parseInt(a[1],10):null},ja:function(){return window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject(\"Microsoft.XMLHTTP\")},La:function(a,b,c){function g(){null!==\nh&&(clearTimeout(h),h=null);w=!0}var e=!1,f=!1,d=!1,h=null,w=!1;try{a.onreadystatechange=function(){w||4!==a.readyState||(g(),a=a.onreadystatechange=null,c(f,d))},0!==b&&(h=setTimeout(function(){w||(f=!0,g(),a.abort(),a=null,c(f,d))},b)),a.send(),e=!0}catch(ha){d=!0,g(),a=null}finally{e||c(f,d)}},ka:function(a,b,c,g){\"boolean\"===typeof g&&g?b=a.split(b):(g=a.indexOf(b),b=-1===g?[a]:[a.substring(0,g),a.substring(g+b.length)]);a=b[0];for(g=1;g<b.length;g++)a+=c+b[g];return a},kd:function(a){if(!a)return 0;\nif(Array.prototype.reduce)return a.split(\"\").reduce(function(a,b){a=(a<<5)-a+b.charCodeAt(0);return a&a},0);for(var b=0,g=0,c=a.length;g<c;g++)b=(b<<5)-b+a.charCodeAt(g),b=b&b;return b},na:function(a){return 0<=window.navigator.userAgent.indexOf(a)},stringify:function(a){return void 0===a||null===a?\"\":a.toString()},jb:function(a,b){if(\"string\"===typeof a&&\"string\"===typeof b){a+=\"=\";for(var g=b.split(\/; *|&\/g),c=g.length,e=0;e<c;e++){var f=g[e];if(0===f.indexOf(a))return f.substring(a.length,f.length)}return\"\"}}}}(function(d){var h;\ntry{if(h=document.getElementById(d),null===h||\"undefined\"===typeof h)h=document.getElementsByName(d)[0]}catch(g){}if(null===h||\"undefined\"===typeof h)for(var c=0;c<document.forms.length;c++)for(var f=document.forms[c],b=0;b<f.elements.length;b++){var e=f[b];if(e.name===d||e.id===d)return e}return h});I=function(){return function(d){d=(\"0000000\"+((d\/1E3|0)>>>0).toString(16)).slice(-8)+\"-\";for(var h=9;36>h;h++){var c;13===h||18===h||23===h?c=\"-\":14===h?c=\"4\":(c=16*Math.random()|0,19===h&&(c=c&3|8),\nc=c.toString(16));d+=c}return d}}();x={b:{xb:\"user_prefs\",P:\"user_prefs2\",Ua:\"experian\",Ta:\"\",xc:\"wdi1\",da:!1,formSelector:\"form\",timeout:2E3,validateOnSubmit:null,ob:\"https:\/\/globalsiteanalytics.com\/service\/hdim\",resourceURL:\"https:\/\/globalsiteanalytics.com\/resource\/resource.png\",$a:\"\",Ja:null,onValidate:null,onInitialize:null,onInitializeTimeout:null,onResourceTimeout:null},L:[],aa:null,Ma:[],ra:null,Cd:670};Q=function(d,h){function c(a){if(!a)return b=4,null;if(a=!d.Ga(a)){var g=d.ha();if(null!==\ng&&10>g)return b=8,null}return a}function f(a,c,f,k,m){d.La(a,h.b.timeout,function(d,h){try{c.i()?k():d?(b=2,k()):h&&(b=6,k()),b=a.status,200===a.status&&((e=a.getResponseHeader(\"ETag\")||\"\")?e=e.replace(\/\"\/g,\"\"):b=7),e&&(g=f)}catch(t){b=6}finally{m()}})}var b,e,g;b=3;g=null;e=\"\";return{M:function(){var a=h.b.$a,l=null;return{start:function(n){b=3;g=null;e=\"\";var k=!1;try{var h=c(a);if(null!==h){try{l=d.ja()}catch(r){b=9;return}try{l.open(\"GET\",a,!0)}catch(r){b=1;return}f(l,n,h,function(){},function(){n.a()});\nk=!0}}catch(r){b=6}finally{k||n.a()}},finish:function(a){a.Oa()&&(b=5);l=null}}},Kc:function(){return e},ya:function(){return g},Ca:function(){return b}}}(u,x);W=function(d,h){function c(b){return d.Ga(b)||(b=d.ha(),8!==b&&9!==b)?!1:!0}function f(g,a){var e,f=h.b.onInitializeTimeout;c(g)?(e=new XDomainRequest,e.open(\"POST\",g),b(e,h.b.timeout,function(b){a(b,e.responseText)})):(e=d.ja(),e.open(\"POST\",g,!0),d.La(e,h.b.timeout,function(b){b&&\"function\"===typeof f&&f();a(200===e.status,e.responseText)}))}\nfunction b(b,a,c){function e(){b&&!d&&(b.onload=b.onerror=b.ontimeout=null,d=!0);b=null;c(f)}var f=!1,d=!1,h=!1;try{b.onload=function(){f=!0;e()},b.onerror=b.ontimeout=e,b.timeout=a,b.send(),h=!0}catch(q){}finally{h||e()}}var e=null;return{M:function(){return{start:function(b){try{var a=h.b.ob,c=h.b.P,n=h.b.onInitialize;!a||!c&&\"function\"!==typeof n?b.a():f(a,function(a,c){if(!b.i()){if(a&&c){var f=c.replace(\/[^ -~](?:.|\\n)*\/,\"\");e=new Date;var l=h.b.P;l&&(l=d.ga(l))&&(l.value=f);\"function\"===typeof n&&\nn(f)}b.a()}})}catch(k){b.a()}}}},Ic:function(){return e}}}(u,x);P=function(){return{h:[],la:[],zb:function(d){return{$b:d,qa:[],zd:function(d,c){for(var f=0;f<c.length;f++)this.qa[d+f]=c[f]},xd:function(d){this.zd(this.qa.length,d)},ca:function(){for(var d=this.qa,c=this.$b.toString(),f=0;f<d.length;f++)try{for(var b=c+=\"&\",e=\"\"+d[f](),g=\"\",a=\/[%&]+\/g,l=void 0,n=0,l=a.exec(e);null!==l;)g+=e.substring(n,l.index)+encodeURIComponent(l[0]),n=a.lastIndex,l=a.exec(e);g+=e.substring(n);c=b+g}catch(k){}return c}}}}}();\nM=function(){function d(c,f){setTimeout(function(){try{var b=f.call(null,h);b instanceof Object&&b.then&&b.then instanceof Function?b.then(c.fa,c.reject):c.fa(b)}catch(e){c.reject(e)}},0)}var h;return function f(){function b(a,b,e){if(0===g)for(g=a,h=e;b.length;)b.shift().call(n,e)}function e(b,e,f){g===f?d(b,e):(1===f?a:l).push(function(){d(b,e)})}var g=0,a=[],l=[],n=this;this.fa=function(e){b(1,a,e)};this.reject=function(a){b(-1,l,a)};this.then=function(a,b){var g=new f;a instanceof Function&&e(g,\na,1);b instanceof Function&&e(g,b,-1);return g}}}();D=function(d){function h(c,f,b,e,g){if(c)for(var a=c,l=function(){f.i()&&b();0<a&&(--a,0===a&&e())},n=0;n<c;n++)g(l,n);else e()}return{Ka:d,Ia:function(c){var f=[];return{start:function(b){for(var e=0;e<c.length;e++)f.push(d(c[e]));h(f.length,b,function(){},function(){b.a()},function(b,a){f[a].oa(b)})},finish:function(b){if(b.Oa())for(b=0;b<f.length;b++)f[b].pb()}}}}}(function(d){function h(){null!==g&&(clearTimeout(g),g=null);try{\"function\"===typeof d.finish&&\nd.finish(c)}catch(a){}f=!0;b.fa()}var c,f=!1,b=new M,e=!1,g=null,a=!1;c={i:function(){return f},a:function(){f||h()},oa:function(a){b.then(function(){a()})},pb:function(){f||(e=!0,h())},Oa:function(){return e},ae:function(){return a}};0<d.u&&(g=setTimeout(function(){g=null;f||(a=!0,h())},d.u));try{d.start(c)}catch(l){c.a()}return c});X=function(d,h){var c=!1,f=!1;return{jc:function(){return{start:function(b){c=!1;try{(window.requestFileSystem||window.webkitRequestFileSystem)(0,0,function(){b.a()},\nfunction(){b.i()||(c=!0,b.a())})}catch(e){b.a()}},u:h.b.timeout}},ic:function(){var b=window.indexedDB||window.mozIndexedDB||window.webkitIndexedDB||window.msIndexedDB,c;return{start:function(g){f=!1;try{c=b.open(\"pbtest\"),c.onsuccess=function(){if(!g.i())try{c.result.close()}finally{g.a()}},c.onerror=function(){g.i()||(f=!0,g.a())}}catch(a){g.a()}},finish:function(){c&&(c=c.onsuccess=c.onerror=null);b&&b.deleteDatabase(\"pbtest\")},u:h.b.timeout}},va:function(){var b;if(!(b=c||f))a:{if(b=window.localStorage)try{b.setItem(\"pbtest\",\n1),b.removeItem(\"pbtest\")}catch(e){b=!0;break a}b=!1}b||window.indexedDB||(b=d.ha(),b=null!==b&&10<=b||d.na(\"Edge\/\"));b||(b=d.na(\"Focus\/\"));return b}}}(u,x,D);E=function(d){var h=null;return{Wa:function(){var c,f=null;return{start:function(b){h=null;try{c=document.createElement(\"div\"),c.setAttribute(\"class\",\"pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links adsbox\"),c.setAttribute(\"style\",d.ka(\"width:1px;height:1px;position:absolute;left:-10000px;right:-1000px;\",\n\";\",\"!important;\",!0)),document.body.appendChild(c),f=setTimeout(function(){f=null;if(!b.i())try{h=!(c&&c.parentNode&&!c.getAttribute(\"abp\")&&c.offsetParent&&0!==c.offsetWidth&&0!==c.offsetHeight&&0!==c.clientWidth&&0!==c.clientHeight)}finally{b.a()}},100)}catch(e){b.a()}},finish:function(){c&&(c.parentNode&&c.parentNode.removeChild(c),c=null);null!==f&&(clearTimeout(f),f=null)}}},va:function(){return h}}}(u);v={Da:{1:[4,15],110:[8,239],74:[8,238],57:[7,118],56:[7,117],71:[8,233],25:[8,232],101:[5,\n28],104:[7,111],4:[7,110],105:[6,54],5:[7,107],109:[7,106],103:[9,423],82:[9,422],26:[8,210],6:[7,104],46:[6,51],97:[6,50],111:[6,49],7:[7,97],45:[7,96],59:[5,23],15:[7,91],11:[8,181],72:[8,180],27:[8,179],28:[8,178],16:[7,88],88:[10,703],113:[11,1405],89:[12,2809],107:[13,5617],90:[14,11233],42:[15,22465],64:[16,44929],0:[16,44928],81:[9,350],29:[8,174],118:[8,173],30:[8,172],98:[8,171],12:[8,170],99:[7,84],117:[6,41],112:[6,40],102:[9,319],68:[9,318],31:[8,158],100:[7,78],84:[6,38],55:[6,37],17:[7,\n73],8:[7,72],9:[7,71],77:[7,70],18:[7,69],65:[7,68],48:[6,33],116:[6,32],10:[7,63],121:[8,125],78:[8,124],80:[7,61],69:[7,60],119:[7,59],13:[8,117],79:[8,116],19:[7,57],67:[7,56],114:[6,27],83:[6,26],115:[6,25],14:[6,24],122:[8,95],95:[8,94],76:[7,46],24:[7,45],37:[7,44],50:[5,10],51:[5,9],108:[6,17],22:[7,33],120:[8,65],66:[8,64],21:[7,31],106:[7,30],47:[6,14],53:[5,6],49:[5,5],86:[8,39],85:[8,38],23:[7,18],75:[7,17],20:[7,16],2:[5,3],73:[8,23],43:[9,45],87:[9,44],70:[7,10],3:[6,4],52:[5,1],54:[5,\n0]},bb:\"%20 ;;; %3B %2C und fin ed; %28 %29 %3A \/53 ike Web 0; .0 e; on il ck 01 in Mo fa 00 32 la .1 ri it %u le\".split(\" \"),ec:'{\"version-1\":{\"replacements\":[\"%20\",\";;;\",\"%3B\",\"%2C\",\"und\",\"fin\",\"ed;\",\"%28\",\"%29\",\"%3A\",\"\/53\",\"ike\",\"Web\",\"0;\",\".0\",\"e;\",\"on\",\"il\",\"ck\",\"01\",\"in\",\"Mo\",\"fa\",\"00\",\"32\",\"la\",\".1\",\"ri\",\"it\",\"%u\",\"le\"],\"huffman\":{\"1\":[4,15],\"110\":[8,239],\"74\":[8,238],\"57\":[7,118],\"56\":[7,117],\"71\":[8,233],\"25\":[8,232],\"101\":[5,28],\"104\":[7,111],\"4\":[7,110],\"105\":[6,54],\"5\":[7,107],\"109\":[7,106],\"103\":[9,423],\"82\":[9,422],\"26\":[8,210],\"6\":[7,104],\"46\":[6,51],\"97\":[6,50],\"111\":[6,49],\"7\":[7,97],\"45\":[7,96],\"59\":[5,23],\"15\":[7,91],\"11\":[8,181],\"72\":[8,180],\"27\":[8,179],\"28\":[8,178],\"16\":[7,88],\"88\":[10,703],\"113\":[11,1405],\"89\":[12,2809],\"107\":[13,5617],\"90\":[14,11233],\"42\":[15,22465],\"64\":[16,44929],\"0\":[16,44928],\"81\":[9,350],\"29\":[8,174],\"118\":[8,173],\"30\":[8,172],\"98\":[8,171],\"12\":[8,170],\"99\":[7,84],\"117\":[6,41],\"112\":[6,40],\"102\":[9,319],\"68\":[9,318],\"31\":[8,158],\"100\":[7,78],\"84\":[6,38],\"55\":[6,37],\"17\":[7,73],\"8\":[7,72],\"9\":[7,71],\"77\":[7,70],\"18\":[7,69],\"65\":[7,68],\"48\":[6,33],\"116\":[6,32],\"10\":[7,63],\"121\":[8,125],\"78\":[8,124],\"80\":[7,61],\"69\":[7,60],\"119\":[7,59],\"13\":[8,117],\"79\":[8,116],\"19\":[7,57],\"67\":[7,56],\"114\":[6,27],\"83\":[6,26],\"115\":[6,25],\"14\":[6,24],\"122\":[8,95],\"95\":[8,94],\"76\":[7,46],\"24\":[7,45],\"37\":[7,44],\"50\":[5,10],\"51\":[5,9],\"108\":[6,17],\"22\":[7,33],\"120\":[8,65],\"66\":[8,64],\"21\":[7,31],\"106\":[7,30],\"47\":[6,14],\"53\":[5,6],\"49\":[5,5],\"86\":[8,39],\"85\":[8,38],\"23\":[7,18],\"75\":[7,17],\"20\":[7,16],\"2\":[5,3],\"73\":[8,23],\"43\":[9,45],\"87\":[9,44],\"70\":[7,10],\"3\":[6,4],\"52\":[5,1],\"54\":[5,0]}}}',\nVa:function(d){for(var h=65535,c=0;c<d.length;c++)h=(h>>>8|h<<8)&65535,h^=d.charCodeAt(c)&255,h^=(h&255)>>4,h^=h<<12&65535,h^=(h&255)<<5&65535;return h&65535}};H=function(d){function h(c){var b;37>c?11>c?c?b=c+47:b=46:b=c+54:38>c?b=95:b=c+59;return String.fromCharCode(b)}function c(c){function b(b){g=g<<b[0]|b[1];for(a+=b[0];6<=a;)b=g>>a-6&63,e+=h(b),a-=6,g^=b<<a}var e=\"\",g=0,a=0;b([6,(c.length&7)<<3|0]);b([6,c.length&56|1]);for(var l=0;l<c.length;l++){if(void 0===d.Da[c.charCodeAt(l)])return;b(d.Da[c.charCodeAt(l)])}b(d.Da[0]);\n0<a&&b([6-a,0]);return e}return{ua:function(f){for(var b=f,e=0;d.bb[e];e++)b=b.split(d.bb[e]).join(String.fromCharCode(e+1));b=c(b);if(void 0===b)return f;e=d.Va(f);f=\"\"+h(e>>>12);f+=h(e>>>6&63);f+=h(e&63);return b+f}}}(v);Y=function(d){function h(){t||(t=r);try{isNaN(y.logicalXDPI)||isNaN(y.systemXDPI)?window.navigator.msMaxTouchPoints?t=k:!window.chrome||window.opera||d.na(\" Opera\")?0<=Object.prototype.toString.call(window.HTMLElement).indexOf(\"Constructor\")?t=l:\"orientation\"in window&&\"webkitRequestAnimationFrame\"in\nwindow?t=a:\"webkitRequestAnimationFrame\"in window?t=g:d.na(\"Opera\")?t=c:window.devicePixelRatio?t=f:.001<b().zoom&&(t=b):t=n:t=m}catch(e){}return t()}function c(){var a=window.top.outerWidth\/window.top.innerWidth,a=Math.round(100*a)\/100;return{zoom:a,j:a*q()}}function f(){return{zoom:b().zoom,j:q()}}function b(){var a=e(),a=Math.round(100*a)\/100;return{zoom:a,j:a}}function e(){function a(c,e,g){var f=(c+e)\/2;return 0>=g||1E-4>e-c?f:b(\"(min--moz-device-pixel-ratio:\"+f+\")\").matches?a(f,e,g-1):a(c,f,\ng-1)}var b,c,e,g;window.matchMedia?b=window.matchMedia:(c=document.getElementsByTagName(\"head\")[0],e=document.createElement(\"style\"),c.appendChild(e),g=document.createElement(\"div\"),g.className=\"mediaQueryBinarySearch\",g.style.display=\"none\",document.body.appendChild(g),b=function(a){e.sheet.insertRule(\"@media \"+a+\"{.mediaQueryBinarySearch {text-decoration: underline} }\",0);a=\"underline\"===getComputedStyle(g,null).textDecoration;e.sheet.deleteRule(0);return{matches:a}});var f=a(0,10,20);g&&(c.removeChild(e),\ndocument.body.removeChild(g));return f}function g(){var a=document.createElement(\"div\");a.innerHTML=\"1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>0\";a.setAttribute(\"style\",\"font: 100px\/1em sans-serif; -webkit-text-size-adjust: none; text-size-adjust: none; height: auto; width: 1em; padding: 0; overflow: visible;\".replace(\/;\/g,\" !important;\"));var b=document.createElement(\"div\");b.setAttribute(\"style\",\"width:0; height:0; overflow:hidden; visibility:hidden; position: absolute;\".replace(\/;\/g,\" !important;\"));\nb.appendChild(a);document.body.appendChild(b);a=1E3\/a.clientHeight;a=Math.round(100*a)\/100;document.body.removeChild(b);return{zoom:a,j:a*q()}}function a(){var a=(90==Math.abs(window.orientation)?y.height:y.width)\/window.innerWidth;return{zoom:a,j:a*q()}}function l(){var a=Math.round(document.documentElement.clientWidth\/window.innerWidth*100)\/100;return{zoom:a,j:a*q()}}function n(){var a=Math.round(window.outerWidth\/window.innerWidth*100)\/100;return{zoom:a,j:a*q()}}function k(){var a=Math.round(document.documentElement.offsetHeight\/\nwindow.innerHeight*100)\/100;return{zoom:a,j:a*q()}}function m(){var a=Math.round(y.deviceXDPI\/y.logicalXDPI*100)\/100;return{zoom:a,j:a*q()}}function r(){return{zoom:1,j:1}}function q(){return window.devicePixelRatio||1}var t;return{zoom:function(){return h().zoom},ea:function(){return h().j}}}(u);Z=function(){var d={Flash:[\"ShockwaveFlash.ShockwaveFlash\",function(c){return c.getVariable(\"$version\")}],Director:[\"SWCtl.SWCtl\",function(c){return c.ShockwaveVersion(\"\")}]},h;try{h=document.createElement(\"span\"),\n\"undefined\"!==typeof h.addBehavior&&h.addBehavior(\"#default#clientCaps\")}catch(f){}var c={};return{Qd:function(c){var b=\"\";try{\"undefined\"!==typeof h.getComponentVersion&&(b=h.getComponentVersion(c,\"ComponentID\"))}catch(e){c=e.message.length,b=escape(e.message.substr(0,40<c?40:c))}return b},G:function(f){return c[f]},qc:function(){for(var f=\"Acrobat;Flash;QuickTime;Java Plug-in;Director;Office\".split(\";\"),b=0;b<f.length;b++){var e=f[b],g=e,a=e,e=\"\";try{if(navigator.plugins&&navigator.plugins.length)for(var l=\nnew RegExp(a+\".* ([0-9._]+)\"),a=0;a<navigator.plugins.length;a++){var n=l.exec(navigator.plugins[a].name);null===n&&(n=l.exec(navigator.plugins[a].description));n&&(e=n[1])}else if(window.ActiveXObject&&d[a])try{var k=new ActiveXObject(d[a][0]),e=d[a][1](k)}catch(h){e=\"\"}}catch(h){e=h.message}c[g]=e}},g:function(c){try{if(navigator.plugins&&navigator.plugins.length)for(var b=0;b<navigator.plugins.length;b++){var e=navigator.plugins[b];if(0<=e.name.indexOf(c))return e.name+(e.description?\"|\"+e.description:\n\"\")}}catch(g){}return\"\"},Uc:function(){var c=\"\";if(navigator.plugins&&navigator.plugins.length)for(var b=0;b<navigator.plugins.length;b++){var e=navigator.plugins[b];e&&(c+=e.name+e.filename+e.description+e.version)}return c}}}();aa=function(d,h){function c(b){g=b.status;var c=[\"\",\"\",\"\"];try{n=b.getResponseHeader(\"cache-control\");for(var e=b.getAllResponseHeaders().toLowerCase().split(\"\\n\"),f=[\"warning\",\"x-cache\",\"via\"],l=0;l<f.length;l++)for(var h=0;h<e.length;h++)if(d.startsWith(e[h],f[l]+\":\")){c[l]=\nb.getResponseHeader(f[l]);break}}catch(L){}k=c[0];m=c[1];r=c[2];200===b.status&&((b=b.getResponseHeader(\"Last-Modified\"))||((b=(void 0).getResponseHeader(\"Expires\"))?(b=new Date(b),b.setTime(b.getTime()-31536E6),b=b.toUTCString()):b=void 0),(a=b||\"\")||(g=7))}function f(a){if(!a)return g=4,null;if(a=!d.Ga(a)){var b=d.ha();if(null!==b&&10>b)return g=8,null}return a}function b(){g=3;l=null;a=n=k=m=r=\"\"}function e(b,e,f,n,k){var m=h.b.onResourceTimeout;d.La(b,h.b.timeout,function(d,h){try{e.i()&&n(),\nd&&(\"function\"===typeof m&&m(),g=2,n()),h&&(g=6,n()),c(b),a&&(l=f)}catch(r){g=6}finally{k()}})}var g,a,l,n,k,m,r;b();return{M:function(){var a=h.b.resourceURL,c=null;return{start:function(l){b();var n=!1;try{var h=f(a);if(null!==h){try{c=d.ja()}catch(k){g=9;return}try{c.open(\"GET\",a,!0)}catch(k){g=1;return}e(c,l,h,function(){},function(){l.a()});n=!0}}catch(k){g=6}finally{n||l.a()}},finish:function(a){a.Oa()&&(g=5);c=null}}},$d:function(){try{var e=h.b.resourceURL;b();var n=f(e);if(null!==n){var k;\ntry{k=d.ja()}catch(m){g=9;return}try{k.open(\"GET\",e,!1)}catch(m){g=1;return}k.send();c(k);a&&(l=n)}}catch(m){g=6}},Qc:function(){return a},ya:function(){return l},Ca:function(){return g},Gc:function(){return n},ed:function(){return k},hd:function(){return m},dd:function(){return r}}}(u,x);ba=function(){function d(e){c=new Date(e.getTime());f=h(1);b=h(7)}function h(b){b--;var g=c.getTime(),a=c.getFullYear(),f=new Date(a,b,15),n=f,d=f;f.getTime()<=g?d=new Date(a+1,b,15):n=new Date(a-1,b,15);return(g-\nn.getTime()<d.getTime()-g?n:d).getTimezoneOffset()}var c,f,b;d(new Date);return{yd:d,gd:function(){return f},$c:function(){return b},od:function(){return b!==f},nd:function(){return b!==f&&c.getTimezoneOffset()===Math.min(f,b)},ad:function(){return Intl.DateTimeFormat().resolvedOptions().timeZone},Zc:function(){return Math.max(f,b)}}}();C={T:\"Google Chrome\",U:\"Chromium\",Y:\"Opera\",W:\"Microsoft Edge\",$:\"Vivaldi\",R:\"Blisk\",S:\"Brave Browser\",V:\"Colibri\",Z:\"SamsungBrowser\",X:\"HuaweiBrowser\"};J=function(d){function h(){for(var b=\nnavigator.userAgentData.brands,c=0;c<b.length;c++)switch(b[c].brand){case d.T:return d.T.replace(\"Google \",\"\");case d.Y:return d.Y;case d.W:return d.W.replace(\"Microsoft \",\"\");case d.$:return d.$;case d.R:return d.R;case d.S:return d.S;case d.V:return d.V;case d.Z:return d.Z;case d.X:return d.X}return d.U}function c(b){try{return void 0!==navigator.userAgentData&&\"function\"===typeof b?b.apply(this):\"\"}catch(c){return\"\"}}var f={platform:\"\",platformVersion:\"\",architecture:\"\",model:\"\",uaFullVersion:\"\",\nbitness:\"\",fullVersionList:\"\",wow64:!1};return{Sa:void 0!==navigator.userAgentData,qd:function(){return c(function(){try{return navigator.userAgentData.mobile}catch(b){return\"\"}})},hb:function(){return c(function(){try{return h()}catch(b){return\"\"}})},Fc:function(){return c(function(){try{var b;a:{for(var c=navigator.userAgentData.brands,g=0,a=0,f=0;f<c.length;f++){switch(c[f].brand){case d.T:case d.Y:case d.W:case d.$:case d.R:case d.S:case d.V:case d.Z:case d.X:g=c[f].version;break;case d.U:a=c[f].version}if(0!==\ng){b=g;break a}}b=0!==a?a:c[0].version}return b}catch(n){return\"\"}})},kc:function(){return{start:function(b){try{void 0!==navigator.userAgentData?navigator.userAgentData.getHighEntropyValues(Object.keys(f)).then(function(c){b.i()||(f=c,b.a())}):b.a()}catch(c){b.a()}}}},Aa:function(){return f.platform},nb:function(){return f.platformVersion},fb:function(){return f.architecture},mb:function(){return f.model},kb:function(){var b;a:if(b=f.fullVersionList,void 0===b||null===b||0===b.length)b=f.uaFullVersion;\nelse{for(var c=0,g=0,a=0;a<b.length;a++){switch(b[a].brand){case d.T:case d.Y:case d.W:case d.$:case d.R:case d.S:case d.V:case d.Z:case d.X:c=b[a].version;break;case d.U:g=b[a].version}if(0!==c){b=c;break a}}b=0!==g?g:b[0].version}return b},gb:function(){return f.bitness},lb:function(){return\"\"===f.fullVersionList?f.fullVersionList:JSON.stringify(f.fullVersionList)},Dc:function(){return JSON.stringify(navigator.userAgentData.brands)},ia:function(){return f.wow64}}}(C);K=function(d,h){return{O:function(c,\nf){for(var b in f)f.hasOwnProperty(b)&&(c=c.replace(\"{{\"+b+\"}}\",f[b]));return c},xa:function(c,f){var b=c.cc,e=c.platform,g=c.tb,a=c.Ra,l=c.eb,n=c.qb,k=c.dc,m=c.ia,r=f.rb.version,q=f.Qa.version,t=f.vb.version,T=f.sa.name,a=null!=T&&\"\"!=T&&a===h.U?T:a;if(null===r||void 0===r||\"\"===r)r=d.Lb;if(null===q||void 0===q||\"\"===q)q=d.yb;if(null===t||void 0===t||\"\"===t)t=d.Ob;if(null===e||void 0===e||\"\"===e)e=f.sb.name;if(null===g||void 0===g||\"\"===g)g=f.sb.version;if(null===l||void 0===l||\"\"===l)l=f.sa.version;\nif(null===n||void 0===n||\"\"===n)n=f.ea.model;return{CH_architecture:b,CH_platform:e,CH_platformVersion:g,CH_BrowserName:a,CH_UAFullVersion:l,CH_model:n,CH_bitness:k,CH_wow64:m,Mozilla_version:r,AppleWebKit_version:q,Safari_version:t}},yc:function(c){var f=this.wb(c);return 8>=f.s?c:c=(f.ba?[f.s,f.D,f.H,f.ba]:f.H?[f.s,f.D,f.H]:f.D?[f.s,f.D]:[f.s]).join(\".\")},zc:function(c){if(\/^[a-zA-Z]+$\/.test(c))return c;c=c.match(\/\\d|\\.|\\-\/g).join(\"\");c=this.wb(c);return c=(c.ba?[c.s,c.D,c.H,c.ba]:c.H?[c.s,c.D,\nc.H]:[c.s,c.D]).join(\".\")},wb:function(c){if(\/^[0-9.]*$\/.test(c))return c=c.split(\".\")||[],{s:+c[0]||0,D:+c[1]||0,H:+c[2]||0,ba:+c[3]||0}}}}({Lb:\"5.0\",yb:\"537.36\",Ob:\"537.36\"},C);F=function(){function d(b){var d=b||(\"undefined\"!==typeof window&&window.navigator&&window.navigator.userAgent?window.navigator.userAgent:\"\");this.Ec=function(){var a={name:null,version:null};c.call(a,d,e);return a};this.Jc=function(){var a={vendor:null,model:null,type:null};c.call(a,d,g);return a};this.Tc=function(){var a=\n{name:null,version:null};c.call(a,d,l);return a};this.Cc=function(){var b={name:null,version:null};c.call(b,d,a);return b};this.Yc=function(){var a={name:null,version:null};c.call(a,d,n);return a};this.Wc=function(){var a={name:null,version:null};c.call(a,d,k);return a};this.Ba=function(){return{ce:this.bd(),sa:this.Ec(),rb:this.Tc(),Qa:this.Cc(),vb:this.Yc(),sb:this.Wc(),ea:this.Jc()}};this.bd=function(){return d};this.ma=function(a){d=\"string\"===typeof a&&255<a.length?f(a,255):a};this.ma(d);return this}\nfunction h(a,c){for(var g in c)if(\"object\"===typeof c[g]&&0<c[g].length)for(var e=0;e<c[g].length;e++){if(b(c[g][e],a))return\"?\"===g?void 0:g}else if(b(c[g],a))return\"?\"===g?void 0:g;return a}function c(a,b){for(var c=0,g,e,f,l,d,n;c<b.length&&!d;){var k=b[c],h=b[c+1];for(g=e=0;g<k.length&&!d;)if(d=k[g].exec(a),g++,d)for(f=0;f<h.length;f++)++e,n=d[e],l=h[f],\"object\"===typeof l&&0<l.length?2===l.length?this[l[0]]=\"function\"===typeof l[1]?l[1].call(this,n):l[1]:3===l.length?this[l[0]]=\"function\"!==\ntypeof l[1]||l[1].exec&&l[1].test?n?n.replace(l[1],l[2]):void 0:n?l[1].call(this,n,l[2]):void 0:4===l.length&&(this[l[0]]=n?l[3].call(this,n.replace(l[1],l[2])):void 0):this[l]=n?n:void 0;c+=2}}function f(a,b){return\"string\"===typeof a?(a=a.replace(\/^\\s\\s*\/,\"\").be(),\"undefined\"===typeof b?a:a.substring(0,255)):\"\"}function b(a,b){return\"string\"===typeof a?-1!==b.toLowerCase().indexOf(a.toLowerCase()):!1}var e=[[\/\\b(?:crmo|crios)\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Chrome\"]],[\/edg(?:e|ios|a)?\\\/([\\w\\.]+)\/i],\n[\"version\",[\"name\",\"Edge\"]],[\/(opera mini)\\\/([-\\w\\.]+)\/i,\/(opera [mobiletab]{3,6})\\b.+version\\\/([-\\w\\.]+)\/i,\/(opera)(?:.+version\\\/|[\\\/ ]+)([\\w\\.]+)\/i],[\"name\",\"version\"],[\/opios[\\\/ ]+([\\w\\.]+)\/i],[\"version\",[\"name\",\"Opera Mini\"]],[\/\\bopr\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Opera\"]],[\/(kindle)\\\/([\\w\\.]+)\/i,\/(lunascape|maxthon|netfront|jasmine|blazer)[\\\/ ]?([\\w\\.]*)\/i,\/(avant |iemobile|slim)(?:browser)?[\\\/ ]?([\\w\\.]*)\/i,\/(ba?idubrowser)[\\\/ ]?([\\w\\.]+)\/i,\/(?:ms|\\()(ie) ([\\w\\.]+)\/i,\/(flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron|vivaldi|iridium|phantomjs|bowser|quark|qupzilla|falkon|rekonq|puffin|brave|whale|qqbrowserlite|qq)\\\/([-\\w\\.]+)\/i,\n\/(weibo)__([\\d\\.]+)\/i],[\"name\",\"version\"],[\/(?:\\buc? ?browser|(?:juc.+)ucweb)[\\\/ ]?([\\w\\.]+)\/i],[\"version\",[\"name\",\"UCBrowser\"]],[\/\\bqbcore\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"WeChat(Win) Desktop\"]],[\/micromessenger\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"WeChat\"]],[\/konqueror\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Konqueror\"]],[\/trident.+rv[: ]([\\w\\.]{1,9})\\b.+like gecko\/i],[\"version\",[\"name\",\"IE\"]],[\/yabrowser\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Yandex\"]],[\/colibri\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Colibri\"]],\n[\/(avast|avg)\\\/([\\w\\.]+)\/i],[[\"name\",\/(.+)\/,\"$1 Secure Browser\"],\"version\"],[\/\\bfocus\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Firefox Focus\"]],[\/\\bopt\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Opera Touch\"]],[\/coc_coc\\w+\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Coc Coc\"]],[\/dolfin\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Dolphin\"]],[\/coast\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"Opera Coast\"]],[\/miuibrowser\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"MIUI Browser\"]],[\/fxios\\\/([-\\w\\.]+)\/i],[\"version\",[\"name\",\"Firefox\"]],[\/\\bqihu|(qi?ho?o?|360)browser\/i],\n[[\"name\",\"360 Browser\"]],[\/(oculus|samsung|sailfish)browser\\\/([\\w\\.]+)\/i],[[\"name\",\/(.+)\/,\"$1 Browser\"],\"version\"],[\/(comodo_dragon)\\\/([\\w\\.]+)\/i],[[\"name\",\/_\/g,\" \"],\"version\"],[\/(electron)\\\/([\\w\\.]+) safari\/i,\/(tesla)(?: qtcarbrowser|\\\/(20\\d\\d\\.[-\\w\\.]+))\/i,\/m?(qqbrowser|baiduboxapp|2345Explorer)[\\\/ ]?([\\w\\.]+)\/i],[\"name\",\"version\"],[\/(metasr)[\\\/ ]?([\\w\\.]+)\/i,\/(lbbrowser)\/i],[\"name\"],[\/((?:fban\\\/fbios|fb_iab\\\/fb4a)(?!.+fbav)|;fbav\\\/([\\w\\.]+);)\/i],[[\"name\",\"Facebook\"],\"version\"],[\/safari (line)\\\/([\\w\\.]+)\/i,\n\/\\b(line)\\\/([\\w\\.]+)\\\/iab\/i,\/(chromium|instagram)[\\\/ ]([-\\w\\.]+)\/i],[\"name\",\"version\"],[\/\\bgsa\\\/([\\w\\.]+) .*safari\\\/\/i],[\"version\",[\"name\",\"GSA\"]],[\/headlesschrome(?:\\\/([\\w\\.]+)| )\/i],[\"version\",[\"name\",\"Chrome Headless\"]],[\/ wv\\).+(chrome)\\\/([\\w\\.]+)\/i],[[\"name\",\"Chrome WebView\"],\"version\"],[\/droid.+ version\\\/([\\w\\.]+)\\b.+(?:mobile safari|safari)\/i],[\"version\",[\"name\",\"Android Browser\"]],[\/(chrome|omniweb|arora|[tizenoka]{5} ?browser)\\\/v?([\\w\\.]+)\/i],[\"name\",\"version\"],[\/version\\\/([\\w\\.]+) .*mobile\\\/\\w+ (safari)\/i],\n[\"version\",[\"name\",\"Mobile Safari\"]],[\/version\\\/([\\w\\.]+) .*(mobile ?safari|safari)\/i],[\"version\",\"name\"],[\/webkit.+?(mobile ?safari|safari)(\\\/[\\w\\.]+)\/i],[\"name\",[\"version\",h,{\"1.0\":\"\/8\",\"1.2\":\"\/1\",\"1.3\":\"\/3\",\"2.0\":\"\/412\",\"2.0.2\":\"\/416\",\"2.0.3\":\"\/417\",\"2.0.4\":\"\/419\",\"?\":\"\/\"}]],[\/(webkit|khtml)\\\/([\\w\\.]+)\/i],[\"name\",\"version\"],[\/(navigator|netscape\\d?)\\\/([-\\w\\.]+)\/i],[[\"name\",\"Netscape\"],\"version\"],[\/mobile vr; rv:([\\w\\.]+)\\).+firefox\/i],[\"version\",[\"name\",\"Firefox Reality\"]],[\/ekiohf.+(flow)\\\/([\\w\\.]+)\/i,\n\/(swiftfox)\/i,\/(icedragon|iceweasel|camino|chimera|fennec|maemo browser|minimo|conkeror|klar)[\\\/ ]?([\\w\\.\\+]+)\/i,\/(seamonkey|k-meleon|icecat|iceape|firebird|phoenix|palemoon|basilisk|waterfox)\\\/([-\\w\\.]+)$\/i,\/(firefox)\\\/([\\w\\.]+)\/i,\/(mozilla)\\\/([\\w\\.]+) .+rv\\:.+gecko\\\/\\d+\/i,\/(polaris|lynx|dillo|icab|doris|amaya|w3m|netsurf|sleipnir|obigo|mosaic|(?:go|ice|up)[\\. ]?browser)[-\\\/ ]?v?([\\w\\.]+)\/i,\/(links) \\(([\\w\\.]+)\/i],[\"name\",\"version\"]],g=[[\/\\b(sch-i[89]0\\d|shw-m380s|sm-[pt]\\w{2,4}|gt-[pn]\\d{2,4}|sgh-t8[56]9|nexus 10)\/i],\n[\"model\",[\"vendor\",\"Samsung\"],[\"type\",\"tablet\"]],[\/\\b((?:s[cgp]h|gt|sm)-\\w+|galaxy nexus)\/i,\/samsung[- ]([-\\w]+)\/i,\/sec-(sgh\\w+)\/i],[\"model\",[\"vendor\",\"Samsung\"],[\"type\",\"mobile\"]],[\/\\((ip(?:hone|od)[\\w ]*);\/i],[\"model\",[\"vendor\",\"Apple\"],[\"type\",\"mobile\"]],[\/\\((ipad);[-\\w\\),; ]+apple\/i,\/applecoremedia\\\/[\\w\\.]+ \\((ipad)\/i,\/\\b(ipad)\\d\\d?,\\d\\d?[;\\]].+ios\/i],[\"model\",[\"vendor\",\"Apple\"],[\"type\",\"tablet\"]],[\/\\b((?:ag[rs][23]?|bah2?|sht?|btv)-a?[lw]\\d{2})\\b(?!.+d\\\/s)\/i],[\"model\",[\"vendor\",\"Huawei\"],[\"type\",\n\"tablet\"]],[\/(?:huawei|honor)([-\\w ]+)[;\\)]\/i,\/\\b(nexus 6p|\\w{2,4}-[atu]?[ln][01259x][012359][an]?)\\b(?!.+d\\\/s)\/i],[\"model\",[\"vendor\",\"Huawei\"],[\"type\",\"mobile\"]],[\/\\b(poco[\\w ]+)(?: bui|\\))\/i,\/\\b; (\\w+) build\\\/hm\\1\/i,\/\\b(hm[-_ ]?note?[_ ]?(?:\\d\\w)?) bui\/i,\/\\b(redmi[\\-_ ]?(?:note|k)?[\\w_ ]+)(?: bui|\\))\/i,\/\\b(mi[-_ ]?(?:a\\d|one|one[_ ]plus|note lte|max)?[_ ]?(?:\\d?\\w?)[_ ]?(?:plus|se|lite)?)(?: bui|\\))\/i],[[\"model\",\/_\/g,\" \"],[\"vendor\",\"Xiaomi\"],[\"type\",\"mobile\"]],[\/\\b(mi[-_ ]?(?:pad)(?:[\\w_ ]+))(?: bui|\\))\/i],\n[[\"model\",\/_\/g,\" \"],[\"vendor\",\"Xiaomi\"],[\"type\",\"tablet\"]],[\/; (\\w+) bui.+ oppo\/i,\/\\b(cph[12]\\d{3}|p(?:af|c[al]|d\\w|e[ar])[mt]\\d0|x9007|a101op)\\b\/i],[\"model\",[\"vendor\",\"OPPO\"],[\"type\",\"mobile\"]],[\/vivo (\\w+)(?: bui|\\))\/i,\/\\b(v[12]\\d{3}\\w?[at])(?: bui|;)\/i],[\"model\",[\"vendor\",\"Vivo\"],[\"type\",\"mobile\"]],[\/\\b(rmx[12]\\d{3})(?: bui|;|\\))\/i],[\"model\",[\"vendor\",\"Realme\"],[\"type\",\"mobile\"]],[\/\\b(milestone|droid(?:[2-4x]| (?:bionic|x2|pro|razr))?:?( 4g)?)\\b[\\w ]+build\\\/\/i,\/\\bmot(?:orola)?[- ](\\w*)\/i,\/((?:moto[\\w\\(\\) ]+|xt\\d{3,4}|nexus 6)(?= bui|\\)))\/i],\n[\"model\",[\"vendor\",\"Motorola\"],[\"type\",\"mobile\"]],[\/\\b(mz60\\d|xoom[2 ]{0,2}) build\\\/\/i],[\"model\",[\"vendor\",\"Motorola\"],[\"type\",\"tablet\"]],[\/(?:[vl]k\\-?\\d{3}) bui| 3\\.[-\\w; ]{10}lg?-([06cv9]{3,4})\/i],[\"model\",[\"vendor\",\"LG\"],[\"type\",\"tablet\"]],[\/(lm(?:-?f100[nv]?|-[\\w\\.]+)(?= bui|\\))|nexus [45])\/i,\/\\blg[-e;\\\/ ]+((?!browser|netcast|android tv)\\w+)\/i,\/\\blg-?([\\d\\w]+) bui\/i],[\"model\",[\"vendor\",\"LG\"],[\"type\",\"mobile\"]],[\/(ideatab[-\\w ]+)\/i,\/lenovo ?(s[56]000[-\\w]+|tab(?:[\\w ]+)|yt[-\\d\\w]{6}|tb[-\\d\\w]{6})\/i],\n[\"model\",[\"vendor\",\"Lenovo\"],[\"type\",\"tablet\"]],[\/(?:maemo|nokia).*(n900|lumia \\d+)\/i,\/nokia[-_ ]?([-\\w\\.]*)\/i],[[\"model\",\/_\/g,\" \"],[\"vendor\",\"Nokia\"],[\"type\",\"mobile\"]],[\/(pixel c)\\b\/i],[\"model\",[\"vendor\",\"Google\"],[\"type\",\"tablet\"]],[\/droid.+; (pixel[\\daxl ]{0,6})(?: bui|\\))\/i],[\"model\",[\"vendor\",\"Google\"],[\"type\",\"mobile\"]],[\/droid.+ ([c-g]\\d{4}|so[-gl]\\w+|xq-a\\w[4-7][12])(?= bui|\\).+chrome\\\/(?![1-6]{0,1}\\d\\.))\/i],[\"model\",[\"vendor\",\"Sony\"],[\"type\",\"mobile\"]],[\/sony tablet [ps]\/i,\/\\b(?:sony)?sgp\\w+(?: bui|\\))\/i],\n[[\"model\",\"Xperia Tablet\"],[\"vendor\",\"Sony\"],[\"type\",\"tablet\"]],[\/ (kb2005|in20[12]5|be20[12][59])\\b\/i,\/(?:one)?(?:plus)? (a\\d0\\d\\d)(?: b|\\))\/i],[\"model\",[\"vendor\",\"OnePlus\"],[\"type\",\"mobile\"]],[\/(alexa)webm\/i,\/(kf[a-z]{2}wi)( bui|\\))\/i,\/(kf[a-z]+)( bui|\\)).+silk\\\/\/i],[\"model\",[\"vendor\",\"Amazon\"],[\"type\",\"tablet\"]],[\/((?:sd|kf)[0349hijorstuw]+)( bui|\\)).+silk\\\/\/i],[[\"model\",\/(.+)\/g,\"Fire Phone $1\"],[\"vendor\",\"Amazon\"],[\"type\",\"mobile\"]],[\/(playbook);[-\\w\\),; ]+(rim)\/i],[\"model\",\"vendor\",[\"type\",\"tablet\"]],\n[\/\\b((?:bb[a-f]|st[hv])100-\\d)\/i,\/\\(bb10; (\\w+)\/i],[\"model\",[\"vendor\",\"BlackBerry\"],[\"type\",\"mobile\"]],[\/(?:\\b|asus_)(transfo[prime ]{4,10} \\w+|eeepc|slider \\w+|nexus 7|padfone|p00[cj])\/i],[\"model\",[\"vendor\",\"ASUS\"],[\"type\",\"tablet\"]],[\/ (z[bes]6[027][012][km][ls]|zenfone \\d\\w?)\\b\/i],[\"model\",[\"vendor\",\"ASUS\"],[\"type\",\"mobile\"]],[\/(nexus 9)\/i],[\"model\",[\"vendor\",\"HTC\"],[\"type\",\"tablet\"]],[\/(htc)[-;_ ]{1,2}([\\w ]+(?=\\)| bui)|\\w+)\/i,\/(zte)[- ]([\\w ]+?)(?: bui|\\\/|\\))\/i,\/(alcatel|geeksphone|nexian|panasonic|sony)[-_ ]?([-\\w]*)\/i],\n[\"vendor\",[\"model\",\/_\/g,\" \"],[\"type\",\"mobile\"]],[\/droid.+; ([ab][1-7]-?[0178a]\\d\\d?)\/i],[\"model\",[\"vendor\",\"Acer\"],[\"type\",\"tablet\"]],[\/droid.+; (m[1-5] note) bui\/i,\/\\bmz-([-\\w]{2,})\/i],[\"model\",[\"vendor\",\"Meizu\"],[\"type\",\"mobile\"]],[\/\\b(sh-?[altvz]?\\d\\d[a-ekm]?)\/i],[\"model\",[\"vendor\",\"Sharp\"],[\"type\",\"mobile\"]],[\/(blackberry|benq|palm(?=\\-)|sonyericsson|acer|asus|dell|meizu|motorola|polytron)[-_ ]?([-\\w]*)\/i,\/(hp) ([\\w ]+\\w)\/i,\/(asus)-?(\\w+)\/i,\/(microsoft); (lumia[\\w ]+)\/i,\/(lenovo)[-_ ]?([-\\w]+)\/i,\n\/(jolla)\/i,\/(oppo) ?([\\w ]+) bui\/i],[\"vendor\",\"model\",[\"type\",\"mobile\"]],[\/(archos) (gamepad2?)\/i,\/(hp).+(touchpad(?!.+tablet)|tablet)\/i,\/(kindle)\\\/([\\w\\.]+)\/i,\/(nook)[\\w ]+build\\\/(\\w+)\/i,\/(dell) (strea[kpr\\d ]*[\\dko])\/i,\/(le[- ]+pan)[- ]+(\\w{1,9}) bui\/i,\/(trinity)[- ]*(t\\d{3}) bui\/i,\/(gigaset)[- ]+(q\\w{1,9}) bui\/i,\/(vodafone) ([\\w ]+)(?:\\)| bui)\/i],[\"vendor\",\"model\",[\"type\",\"tablet\"]],[\/(surface duo)\/i],[\"model\",[\"vendor\",\"Microsoft\"],[\"type\",\"tablet\"]],[\/droid [\\d\\.]+; (fp\\du?)(?: b|\\))\/i],[\"model\",\n[\"vendor\",\"Fairphone\"],[\"type\",\"mobile\"]],[\/(u304aa)\/i],[\"model\",[\"vendor\",\"AT&T\"],[\"type\",\"mobile\"]],[\/\\bsie-(\\w*)\/i],[\"model\",[\"vendor\",\"Siemens\"],[\"type\",\"mobile\"]],[\/\\b(rct\\w+) b\/i],[\"model\",[\"vendor\",\"RCA\"],[\"type\",\"tablet\"]],[\/\\b(venue[\\d ]{2,7}) b\/i],[\"model\",[\"vendor\",\"Dell\"],[\"type\",\"tablet\"]],[\/\\b(q(?:mv|ta)\\w+) b\/i],[\"model\",[\"vendor\",\"Verizon\"],[\"type\",\"tablet\"]],[\/\\b(?:barnes[& ]+noble |bn[rt])([\\w\\+ ]*) b\/i],[\"model\",[\"vendor\",\"Barnes & Noble\"],[\"type\",\"tablet\"]],[\/\\b(tm\\d{3}\\w+) b\/i],\n[\"model\",[\"vendor\",\"NuVision\"],[\"type\",\"tablet\"]],[\/\\b(k88) b\/i],[\"model\",[\"vendor\",\"ZTE\"],[\"type\",\"tablet\"]],[\/\\b(nx\\d{3}j) b\/i],[\"model\",[\"vendor\",\"ZTE\"],[\"type\",\"mobile\"]],[\/\\b(gen\\d{3}) b.+49h\/i],[\"model\",[\"vendor\",\"Swiss\"],[\"type\",\"mobile\"]],[\/\\b(zur\\d{3}) b\/i],[\"model\",[\"vendor\",\"Swiss\"],[\"type\",\"tablet\"]],[\/\\b((zeki)?tb.*\\b) b\/i],[\"model\",[\"vendor\",\"Zeki\"],[\"type\",\"tablet\"]],[\/\\b([yr]\\d{2}) b\/i,\/\\b(dragon[- ]+touch |dt)(\\w{5}) b\/i],[[\"vendor\",\"Dragon Touch\"],\"model\",[\"type\",\"tablet\"]],[\/\\b(ns-?\\w{0,9}) b\/i],\n[\"model\",[\"vendor\",\"Insignia\"],[\"type\",\"tablet\"]],[\/\\b((nxa|next)-?\\w{0,9}) b\/i],[\"model\",[\"vendor\",\"NextBook\"],[\"type\",\"tablet\"]],[\/\\b(xtreme\\_)?(v(1[045]|2[015]|[3469]0|7[05])) b\/i],[[\"vendor\",\"Voice\"],\"model\",[\"type\",\"mobile\"]],[\/\\b(lvtel\\-)?(v1[12]) b\/i],[[\"vendor\",\"LvTel\"],\"model\",[\"type\",\"mobile\"]],[\/\\b(ph-1) \/i],[\"model\",[\"vendor\",\"Essential\"],[\"type\",\"mobile\"]],[\/\\b(v(100md|700na|7011|917g).*\\b) b\/i],[\"model\",[\"vendor\",\"Envizen\"],[\"type\",\"tablet\"]],[\/\\b(trio[-\\w\\. ]+) b\/i],[\"model\",[\"vendor\",\n\"MachSpeed\"],[\"type\",\"tablet\"]],[\/\\btu_(1491) b\/i],[\"model\",[\"vendor\",\"Rotor\"],[\"type\",\"tablet\"]],[\/(shield[\\w ]+) b\/i],[\"model\",[\"vendor\",\"Nvidia\"],[\"type\",\"tablet\"]],[\/(sprint) (\\w+)\/i],[\"vendor\",\"model\",[\"type\",\"mobile\"]],[\/(kin\\.[onetw]{3})\/i],[[\"model\",\/\\.\/g,\" \"],[\"vendor\",\"Microsoft\"],[\"type\",\"mobile\"]],[\/droid.+; (cc6666?|et5[16]|mc[239][23]x?|vc8[03]x?)\\)\/i],[\"model\",[\"vendor\",\"Zebra\"],[\"type\",\"tablet\"]],[\/droid.+; (ec30|ps20|tc[2-8]\\d[kx])\\)\/i],[\"model\",[\"vendor\",\"Zebra\"],[\"type\",\"mobile\"]],\n[\/(ouya)\/i,\/(nintendo) ([wids3utch]+)\/i],[\"vendor\",\"model\",[\"type\",\"console\"]],[\/droid.+; (shield) bui\/i],[\"model\",[\"vendor\",\"Nvidia\"],[\"type\",\"console\"]],[\/(playstation [345portablevi]+)\/i],[\"model\",[\"vendor\",\"Sony\"],[\"type\",\"console\"]],[\/\\b(xbox(?: one)?(?!; xbox))[\\); ]\/i],[\"model\",[\"vendor\",\"Microsoft\"],[\"type\",\"console\"]],[\/smart-tv.+(samsung)\/i],[\"vendor\",[\"type\",\"smarttv\"]],[\/hbbtv.+maple;(\\d+)\/i],[[\"model\",\/^\/,\"SmartTV\"],[\"vendor\",\"Samsung\"],[\"type\",\"smarttv\"]],[\/(nux; netcast.+smarttv|lg (netcast\\.tv-201\\d|android tv))\/i],\n[[\"vendor\",\"LG\"],[\"type\",\"smarttv\"]],[\/(apple) ?tv\/i],[\"vendor\",[\"model\",\"Apple TV\"],[\"type\",\"smarttv\"]],[\/crkey\/i],[[\"model\",\"Chromecast\"],[\"vendor\",\"Google\"],[\"type\",\"smarttv\"]],[\/droid.+aft(\\w)( bui|\\))\/i],[\"model\",[\"vendor\",\"Amazon\"],[\"type\",\"smarttv\"]],[\/\\(dtv[\\);].+(aquos)\/i],[\"model\",[\"vendor\",\"Sharp\"],[\"type\",\"smarttv\"]],[\/\\b(roku)[\\dx]*[\\)\\\/]((?:dvp-)?[\\d\\.]*)\/i,\/hbbtv\\\/\\d+\\.\\d+\\.\\d+ +\\([\\w ]*; *(\\w[^;]*);([^;]*)\/i],[[\"vendor\",f],[\"model\",f],[\"type\",\"smarttv\"]],[\/\\b(android tv|smart[- ]?tv|opera tv|tv; rv:)\\b\/i],\n[[\"type\",\"smarttv\"]],[\/((pebble))app\/i],[\"vendor\",\"model\",[\"type\",\"wearable\"]],[\/droid.+; (glass) \\d\/i],[\"model\",[\"vendor\",\"Google\"],[\"type\",\"wearable\"]],[\/droid.+; (wt63?0{2,3})\\)\/i],[\"model\",[\"vendor\",\"Zebra\"],[\"type\",\"wearable\"]],[\/(quest( 2)?)\/i],[\"model\",[\"vendor\",\"Facebook\"],[\"type\",\"wearable\"]],[\/(tesla)(?: qtcarbrowser|\\\/[-\\w\\.]+)\/i],[\"vendor\",[\"type\",\"embedded\"]],[\/droid .+?; ([^;]+?)(?: bui|\\) applew).+? mobile safari\/i],[\"model\",[\"type\",\"mobile\"]],[\/droid .+?; ([^;]+?)(?: bui|\\) applew).+?(?! mobile) safari\/i],\n[\"model\",[\"type\",\"tablet\"]],[\/\\b((tablet|tab)[;\\\/]|focus\\\/\\d(?!.+mobile))\/i],[[\"type\",\"tablet\"]],[\/(phone|mobile(?:[;\\\/]| safari)|pda(?=.+windows ce))\/i],[[\"type\",\"mobile\"]],[\/(android[-\\w\\. ]{0,9});.+buil\/i],[\"model\",[\"vendor\",\"Generic\"]]],a=[[\/(applewebkit)\\\/([\\w\\.]+)\/i],[\"name\",\"version\"]],l=[[\/(mozilla)\\\/([\\w\\.]+)\/i],[\"name\",\"version\"]],n=[[\/(safari)\\\/([\\w\\.]+)\/i],[\"name\",\"version\"]],k=[[\/microsoft (windows) (vista|xp)\/i],[\"name\",\"version\"],[\/(windows) nt 6\\.2; (arm)\/i,\/(windows (?:phone(?: os)?|mobile))[\\\/ ]?([\\d\\.\\w ]*)\/i,\n\/(windows)[\\\/ ]?([ntce\\d\\. ]+\\w)(?!.{1,999}xbox)\/i],[\"name\",\"version\"],[\/(win(?=3|9|n)|win 9x )([nt\\d\\.]+)\/i],[[\"name\",\"Windows\"],[\"version\",h,{ME:\"4.90\",\"NT 3.11\":\"NT3.51\",\"NT 4.0\":\"NT4.0\",2E3:\"NT 5.0\",XP:[\"NT 5.1\",\"NT 5.2\"],Vista:\"NT 6.0\",7:\"NT 6.1\",8:\"NT 6.2\",\"8.1\":\"NT 6.3\",10:[\"NT 6.4\",\"NT 10.0\"],RT:\"ARM\"}]],[\/ip[honead]{2,4}\\b(?:.*os ([\\w]+) like mac|; opera)\/i,\/cfnetwork\\\/.+darwin\/i],[[\"version\",\/_\/g,\".\"],[\"name\",\"iOS\"]],[\/(mac os x) ?([\\w\\. ]*)\/i,\/(macintosh|mac_powerpc\\b)(?!.+haiku)\/i],[[\"name\",\n\"Mac OS\"],[\"version\",\/_\/g,\".\"]],[\/droid ([\\w\\.]+)\\b.+(android[- ]x86)\/i],[\"version\",\"name\"],[\/(android|webos|qnx|bada|rim tablet os|maemo|meego|sailfish)[-\\\/ ]?([\\w\\.]*)\/i,\/(blackberry)\\w*\\\/([\\w\\.]*)\/i,\/(tizen|kaios)[\\\/ ]([\\w\\.]+)\/i,\/\\((series40);\/i],[\"name\",\"version\"],[\/\\(bb(10);\/i],[\"version\",[\"name\",\"BlackBerry\"]],[\/(?:symbian ?os|symbos|s60(?=;)|series60)[-\\\/ ]?([\\w\\.]*)\/i],[\"version\",[\"name\",\"Symbian\"]],[\/mozilla\\\/[\\d\\.]+ \\((?:mobile|tablet|tv|mobile; [\\w ]+); rv:.+ gecko\\\/([\\w\\.]+)\/i],[\"version\",\n[\"name\",\"Firefox OS\"]],[\/web0s;.+rt(tv)\/i,\/\\b(?:hp)?wos(?:browser)?\\\/([\\w\\.]+)\/i],[\"version\",[\"name\",\"webOS\"]],[\/crkey\\\/([\\d\\.]+)\/i],[\"version\",[\"name\",\"Chromecast\"]],[\/(cros) [\\w]+ ([\\w\\.]+\\w)\/i],[[\"name\",\"Chromium OS\"],\"version\"],[\/(nintendo|playstation) ([wids345portablevuch]+)\/i,\/(xbox); +xbox ([^\\);]+)\/i,\/\\b(joli|palm)\\b ?(?:os)?\\\/?([\\w\\.]*)\/i,\/(mint)[\\\/\\(\\) ]?(\\w*)\/i,\/(mageia|vectorlinux)[; ]\/i,\/([kxln]?ubuntu|debian|suse|opensuse|gentoo|arch(?= linux)|slackware|fedora|mandriva|centos|pclinuxos|red ?hat|zenwalk|linpus|raspbian|plan 9|minix|risc os|contiki|deepin|manjaro|elementary os|sabayon|linspire)(?: gnu\\\/linux)?(?: enterprise)?(?:[- ]linux)?(?:-gnu)?[-\\\/ ]?(?!chrom|package)([-\\w\\.]*)\/i,\n\/(hurd|linux) ?([\\w\\.]*)\/i,\/(gnu) ?([\\w\\.]*)\/i,\/\\b([-frentopcghs]{0,5}bsd|dragonfly)[\\\/ ]?(?!amd|[ix346]{1,2}86)([\\w\\.]*)\/i,\/(haiku) (\\w+)\/i],[\"name\",\"version\"],[\/(sunos) ?([\\w\\.\\d]*)\/i],[[\"name\",\"Solaris\"],\"version\"],[\/((?:open)?solaris)[-\\\/ ]?([\\w\\.]*)\/i,\/(aix) ((\\d)(?=\\.|\\)| )[\\w\\.])*\/i,\/\\b(beos|os\\\/2|amigaos|morphos|openvms|fuchsia|hp-ux)\/i,\/(unix) ?([\\w\\.]*)\/i],[\"name\",\"version\"]];d.Ld=[\"name\",\"version\",\"major\"];d.Nd=\"model vendor type console mobile smarttv tablet wearable embedded\".split(\" \");\nd.Od=[\"name\",\"version\"];d.Kd=[\"name\",\"version\"];d.Xd=[\"name\",\"version\"];d.Wd=[\"name\",\"version\"];return d}();ca=function(d,h,c,f,b,e){return{ca:function(){if(!d.Sa)return h.f(\"navigator.userAgent\");var g={cc:d.fb(),platform:d.Aa(),tb:d.nb(),Ra:d.hb(),eb:d.kb(),qb:d.mb(),dc:d.gb(),Ac:d.lb(),ia:d.ia()};if(!(g.tb||g.eb||g.Ac||g.qb))return h.f(\"navigator.userAgent\");var a=h.f(\"navigator.userAgent\");if(a.length>e.Cd)return a;a=new b;a.ma(h.f(\"navigator.userAgent\"));a=a.Ba();if(null===a.rb.version||null===\na.vb.version||null===a.Qa.version)return h.f(\"navigator.userAgent\");g=f.xa(g,a);a=g.CH_platform;return-1<a.toLowerCase().indexOf(\"macos\")||-1<a.toLowerCase().indexOf(\"mac os\")?f.O(c.Cb,g):-1<a.toLowerCase().indexOf(\"windows\")?(g.CH_platformVersion=f.zc(g.CH_platformVersion),f.O(c.Fb,g)):-1<a.toLowerCase().indexOf(\"android\")?(g.CH_platformVersion=f.yc(g.CH_platformVersion),f.O(c.Db,g)):-1<a.toLowerCase().indexOf(\"iphone\")||-1<a.toLowerCase().indexOf(\"ipod\")||-1<a.toLowerCase().indexOf(\"ipad\")||-1<\na.toLowerCase().indexOf(\"ios\")?h.f(\"navigator.userAgent\"):-1<a.toLowerCase().indexOf(\"linux\")?f.O(c.Bb,g):f.O(c.Eb,g)}}}(J,u,{Cb:\"Mozilla\/{{Mozilla_version}} (Macintosh; {{CH_architecture}} Mac OS X {{CH_platformVersion}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Safari\/{{Safari_version}}\",Fb:\"Mozilla\/{{Mozilla_version}} ({{CH_platform}} NT {{CH_platformVersion}}; {{CH_architecture}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Safari\/{{Safari_version}}\",\nDb:\"Mozilla\/{{Mozilla_version}} (Linux; {{CH_platform}} {{CH_platformVersion}}; {{CH_model}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Mobile Safari\/{{Safari_version}}\",Id:\"Mozilla\/{{Mozilla_version}} ({{CH_model}}; {{CH_architecture}} {{CH_platform}} {{CH_platformVersion}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Mobile Safari\/{{Safari_version}}\",Bb:\"Mozilla\/{{Mozilla_version}} (X11; {{CH_platform}} {{CH_platformVersion}}; {{CH_architecture}}_{{CH_bitness}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Safari\/{{Safari_version}}\",\nEb:\"Mozilla\/{{Mozilla_version}} ({{CH_platform}} {{CH_platformVersion}}; {{CH_model}} {{CH_architecture}}) AppleWebKit\/{{AppleWebKit_version}} (KHTML, like Gecko) {{CH_BrowserName}}\/{{CH_UAFullVersion}} Safari\/{{Safari_version}}\"},K,F,x);da=function(d,h){function c(a,b,c){function g(a){f.reject(a)}function e(a){f.fa(a)}var f=new h;try{try{a[b].apply(a,c).then(e,g)}catch(d){a[b].apply(a,c.concat([e,g]))}}catch(d){g(d)}return f}function f(a){try{var b=a.candidate;if(b){var c=b.candidate;if(c)return g.push(c),\n!0}}catch(e){}return!1}function b(a,b){a.i()&&b()}var e=window.mozRTCPeerConnection||window.webkitRTCPeerConnection||window.RTCPeerConnection,g=[];return{Xa:function(){var a=null,l=null;return{start:function(d){try{g=[],a=new e({iceServers:[]}),a.onicecandidate=function(a){b(d,function(){});f(a)||d.a()},l=a.createDataChannel(\"\"),c(a,\"createOffer\",[]).then(function(g){b(d,function(){});return c(a,\"setLocalDescription\",[g])}).then(null,function(){b(d,function(){});d.a()})}catch(h){d.a()}},finish:function(){a&&\n(a.onicecandidate=null,l&&(l.close(),l=null),a.close(),a=null)},u:d.b.timeout}},Bc:function(){for(var a=\"\",b=\"\",c=0;c<g.length;c++){var e=g[c].replace(\/^[^:]*:\/,\"\").split(\" \");8<=e.length&&(a+=b+e[4]+\" \"+e[7],b=\",\")}return a}}}(x,M);G=function(){function d(){return\"undefined\"!==typeof window.sessionStorage}function h(b,c){d()&&window.sessionStorage.setItem(b,c)}function c(b){return d()?window.sessionStorage.getItem(b):null}var f;return{o:d,set:h,A:function(b,c){return{start:function(g){h(b,c);g.a()}}},\nget:c,w:function(b){return{start:function(e){f=null;f=c(b);e.a()}}},remove:function(b){d()&&window.sessionStorage.removeItem(b)},value:function(){return f}}}();z=function(){function d(){return\"undefined\"!==typeof window.localStorage}function h(b,c){d()&&window.localStorage.setItem(b,c)}function c(b){return d()?window.localStorage.getItem(b):null}var f;return{o:d,set:h,A:function(b,c){return{start:function(g){h(b,c);g.a()}}},get:c,w:function(b){return{start:function(e){f=null;f=c(b);e.a()}}},remove:function(b){d()&&\nwindow.localStorage.removeItem(b)},value:function(){return f}}}();C=function(d,h){function c(){var a=d.b.Ta;return a?\"; Domain=.\"+a:\"\"}function f(a,b,g){var e=new Date;e.setTime(e.getTime()+63072E6);a=a+\"=\"+b+\"; Expires=\"+e.toUTCString()+c()+\"; SameSite=Lax; Path=\/\";g&&(a=a+\"; Priority=\"+g);document.cookie=a}function b(a){return h.jb(a,document.cookie)}var e,g=Object.freeze({Kb:\"High\",Jd:\"Medium\"});return{set:f,A:function(a,b,c){return{start:function(g){f(a,b,c);g.a()}}},get:b,w:function(a){return{start:function(c){e=\nnull;e=b(a);c.a()}}},remove:function(a){document.cookie=a+\"=; Max-Age=-1\"+c()+\"; SameSite=Lax; Path=\/\"},hc:g,value:function(){return e}}}(x,u);G=function(d,h,c,f,b,e){return{sessionStorage:d,localStorage:h,F:c,pa:f,indexedDB:b,openDatabase:e}}(G,z,C,function(d){function h(b,c){if(\"string\"===typeof b){var a=window.name,a=a?f(b,a):void 0,d=\"&\"+b+\"=\"+c;window.name=a?a+d:d}}function c(b){return d.jb(b,window.name)}function f(b,c){var a=c;if(-1<c.indexOf(\"&\"+b+\"=\")||0===c.indexOf(b+\"=\")){a=c.indexOf(\"&\"+\nb+\"=\");-1===a&&(a=c.indexOf(b+\"=\"));var f=c.indexOf(\"&\",a+1),a=-1!==f?c.slice(0,a)+c.slice(f+(a?0:1)):c.slice(0,a)}a&&!d.startsWith(a,\"&\")&&(a=\"&\"+a);return a}var b;return{set:h,A:function(b,c){return{start:function(a){h(b,c);a.a()}}},get:c,w:function(e){return{start:function(g){b=null;b=c(e);g.a()}}},remove:function(b){\"string\"===typeof b&&(b=f(b,window.name),window.name=b)},value:function(){return b}}}(u),function(){function d(){return\"undefined\"!==typeof e}function h(a){a&&Object.keys(a).forEach(function(b){b&&\n(l[b]=a[b])})}function c(){var a=e.open(l.B,l.Ya);a.onupgradeneeded=function(a){g=a.target.result;g.objectStoreNames.contains(l.l)||g.createObjectStore(l.l,{keyPath:l.keyPath,autoIncrement:l.autoIncrement}).createIndex(l.keyPath,l.keyPath,{unique:l.unique})};return a}function f(c){!1!==d()&&(b(),c=e.deleteDatabase(c),a=void 0,c.onsuccess=function(){},c.onerror=function(){},c.onblocked=function(){})}function b(){g&&(g.close(),g=null)}var e=window.indexedDB||window.webkitIndexedDB||window.mozIndexedDB||\nwindow.msIndexedDB,g=null,a,l={B:\"experian\",Ya:1,l:\"experian\",unique:!1,keyPath:\"name\",autoIncrement:!1};return{o:d,set:function(e,k,m){h(m);return{start:function(b){!1===d()&&(a=void 0,b.a());var h=c();h.onerror=function(){b.a()};h.onsuccess=function(c){g=c.target.result;try{var d=g.transaction(l.l,\"readwrite\").objectStore(l.l).put({name:e,value:k});d.onerror=function(){b.a()};d.onsuccess=function(){a=k;b.a()}}catch(h){f(l.B),b.a()}}},finish:function(){b()},u:9E3}},get:function(e,k){h(k);return{start:function(b){!1===\nd()&&(a=void 0,b.a());var h=c();h.onerror=function(){b.a()};h.onsuccess=function(c){g=c.target.result;try{var d=g.transaction(l.l).objectStore(l.l).get(e);d.onerror=function(){b.a()};d.onsuccess=function(){a=d.result?d.result.value:void 0;b.a()}}catch(h){f(l.B),b.a()}}},finish:function(){b()}}},remove:function(e,f){!1!==d()&&(h(f),a=void 0,c().onsuccess=function(a){g=a.target.result;a=g.transaction(l.l,\"readwrite\").objectStore(l.l)[\"delete\"](e);a.onerror=function(){b()};a.onsuccess=function(){b()}})},\nnc:f,value:function(){return a}}}(),function(){function d(){return\"undefined\"!==typeof window.openDatabase}function h(c){c&&Object.keys(c).forEach(function(g){g&&(b[g]=c[g])})}function c(){return window.openDatabase(b.B,b.version,b.description,b.size)}var f,b={B:\"EXP_DB\",description:\"EXP_DB\",version:\"1.0\",size:1048576,J:\"exp\"};return{o:d,get:function(e,g){h(g);return{start:function(a){!1===d()&&(f=void 0,a.a());c().transaction(function(c){c.executeSql(\"SELECT value FROM \"+b.J+\" WHERE name = ?\",[e],\nfunction(b,c){f=c.rows.length?c.rows.item(0).value:null;a.a()})})}}},set:function(e,g,a){h(a);return{start:function(a){!1===d()&&(f=void 0,a.a());c().transaction(function(c){c.executeSql(\"CREATE TABLE IF NOT EXISTS \"+b.J+\"(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, value TEXT NOT NULL, UNIQUE (name))\");c.executeSql(\"INSERT OR REPLACE INTO \"+b.J+\" (name, value) VALUES (?, ?)\",[e,g],function(){f=g;a.a()})})}}},remove:function(e,g){if(!1!==d()){h(g);try{c().transaction(function(a){a.executeSql(\"DELETE FROM \"+\nb.J+\" WHERE name = ?\",[e]);f=void 0})}catch(a){}}},oc:function(e){if(!1!==d()){h(e);try{c().transaction(function(c){c.executeSql(\"DROP TABLE IF EXISTS \"+b.J);f=void 0})}catch(g){}}},value:function(){return f}}}());z=function(d){return{Za:function(){return d.stringify(navigator.hardwareConcurrency)}}}(u);v=function(d,h){var c=[];(function(){for(var f=0;123>f;f++)c.push(-1);for(f=0;64>f;f++)c[\".0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz\"[f].charCodeAt(0)]=f})();return{mc:function(f){if(0===\nf.indexOf(\"TF1\"))return f;var b;if(2>f.length)b=\"\";else{b=f.charCodeAt(0);var e=f.charCodeAt(1);122<b||122<e?b=\"\":(b=c[b],e=c[e],b=-1==b||-1==e?\"\":(b&7)<<3|e&7)}e=d.Xc(b);b=d.Pc(b);for(var g=[],a=b,l,n=2;n<f.length;n++){l=f.charAt(n);if(122<l)break;var k=c[l.charCodeAt(0)];if(-1==k)break;a:{l=b;for(var m=g,r=e,q=f,t=5;0<=t;t--)if(0<a.value.charCodeAt(0)&&32>a.value.charCodeAt(0)&&(m.push(r[a.value.charCodeAt(0)-1]),a=l),a.value!=String.fromCharCode(-1)&&(m.push(a.value),a=l),a=0==(k>>t&1)?a.left:\na.right,0==a.value.charCodeAt(0)){l=(c[q.charAt(q.length-3).charCodeAt(0)]<<12|c[q.charAt(q.length-2).charCodeAt(0)]<<6|c[q.charAt(q.length-1).charCodeAt(0)])!=h.Va(m.join(\"\"))?\"\":[a,m.join(\"\")];break a}l=[a,null]}if(\"\"==l)break;a=l[0];l=l[1];if(null!=l)return l}return\"\"}}}(function(d,h){function c(){for(var a in b){var c=parseInt(a.split(\"-\")[1]),g=b[a].replacements,f=Array(g.length);if(31!=f.length)break;for(var d=0;d<f.length;d++)f[d]=g[d];e[c]=f}}function f(){for(var a in b){var c=parseInt(a.split(\"-\")[1]),\nf=b[a].huffman,e=new h.Ea,d=e,r=void 0;for(r in f)for(var q=f[r],t=d,u=q[1],w=parseInt(r),q=q[0]-1;0<=q;q--)0===(u>>q&1)?(null===t.left&&(t.left=new h.Ea),t=t.left):(null===t.right&&(t.right=new h.Ea),t=t.right),0===q&&(t.value=String.fromCharCode(w));g[c]=e}}var b={},e={},g={};try{b=JSON.parse(d.ec),c(),f()}catch(a){}return{Xc:function(a){return e[a]},Pc:function(a){return g[a]}}}(v,function(){return{Ea:function(){this.value=String.fromCharCode(-1);this.right=this.left=null}}}()),v);v=function(d,\nh,c,f,b,e,g){var a=!1,l=[],n=function(){var a=\"\",a=new f;a.ma(h.f(\"navigator.userAgent\"));a=a.Ba();if(c.Sa)var g={Ra:c.hb()},a=b.xa(g,a).CH_BrowserName;else a=a.sa.name;return a=a.replace(\/[-\\s]\/g,\"\")}(),k=function(){var a={platform:c.Aa()},g=new f;g.ma(h.f(\"navigator.userAgent\"));g=g.Ba();(a=b.xa(a,g).CH_platform)&&(a=a.replace(\/[-\\s]\/g,\"\"));return a}(),m=d.Za();return{bc:function(a,b){return a?a+\"-\"+b:a},ac:function(a){return a?a+\"-\"+k+\"-\"+n+\"-\"+m:a},Ed:function(b,c,g){if(b){if(b.substring(b.length-\n4,b.length)===c)return b.substring(0,b.length-5);a=!0;l.push(g);return\"\"}return b},Dd:function(b,c){if(b){var g=b.split(\"-\");if(8>g.length)return a=!0,l.push(c.Jb),\"\";for(var f=[k,n,m],e=[c.Nb,c.Ab,c.Gb],d=2;0<=d;d--){var h=g[d+(g.length-3)];h!=f[d]&&(a=!0,l.push(e[d]),b=\"\");var h=\"-\"+h,u=b.lastIndexOf(h);-1!==u&&(b=b.substring(0,u)+b.substring(u+h.length))}}return b},Fd:function(b,c){if(b){var g=!1,f=b.split(\"-\");if(36==b.length&&5==f.length){var e=[8,4,4,4,12],d=\/^[a-z0-9]+$\/;f.forEach(function(a,\nb){if(a.length!==e[b]||!d.test(a)||2==b&&\"4\"!==a[0])return g=!0,!1})}else g=!0;g&&(a=!0,l.push(c.Vb),b=\"\")}return b},tc:function(){return a},vc:l,wc:function(a){return a?e.ua(a):a},lc:function(a){return a?g.mc(a):a}}}(z,u,J,F,K,H,v);K=function(d,h,c,f,b,e){function g(a,b){return void 0===b?c.F.w(a):c.F.A(a,b,c.F.hc.Kb)}function a(a,b){return void 0===b?c.openDatabase.get(a,v):c.openDatabase.set(a,b,v)}function l(a,b){var g={B:\"DI_DB\",Ya:1,l:\"ec\",unique:!1,keyPath:\"name\",autoIncrement:!1};return void 0===\nb?c.indexedDB.get(a,g):c.indexedDB.set(a,b,g)}function n(){var a=L.map(function(a){return a.get(N)});f.Ka(f.Ia(a)).oa(function(){k();q()})}function k(){L.forEach(function(a){var b=a.value(),b=e.lc(b),b=e.Ed(b,a.C,a.I),b=e.Dd(b,w),b=e.Fd(b,w);(a.m=b)&&-1===A.indexOf(b)&&A.push(b)});x=e.tc();B=B.concat(e.vc);r();m()}function m(){if(0===A.length){var a;z=u.Hb;a=h((new Date).getTime());A.push(a)}else 1<A.length&&(x=!0,B.push(w.Mb))}function r(){x||L.forEach(function(a){a.m||0==a.weight||\"openDB\"===a.name&&\n!c.openDatabase.o()||L.forEach(function(b){b.weight<a.weight&&b.m&&(x=!0,B.push(a.K))})})}function q(){var a=A[0],b=[];L.forEach(function(c){if(!c.m){var g=e.ac(a),g=e.bc(g,c.C),g=e.wc(g);b.push(c.set(N,g))}});b&&0<b.length?f.Ka(f.Ia(b)).oa(function(){y.a()}):y.a()}function t(){(c.localStorage.get(N)||c.F.get(N))&&L.forEach(function(a){a.remove(N)});y.a()}var u=Object.freeze({Pa:\"end-user-opt-out\",Hb:\"opt-in-new-token\",Ib:\"opt-in-old-token\"}),w=Object.freeze({Jb:\"format_mismatch\",Qb:\"storage_mismatch_indexeddb\",\nTb:\"storage_mismatch_sqlite\",Rb:\"storage_mismatch_localstorage\",Sb:\"storage_mismatch_sessionstorage\",Pb:\"storage_mismatch_fpcookie\",Ub:\"storage_mismatch_windowname\",Nb:\"platform_mismatch\",Ab:\"browser_mismatch\",Gb:\"concurrency_mismatch\",Vb:\"token_mismatch\",Mb:\"multiple_tokens\",Xb:\"weight_mismatch_indexeddb\",Zb:\"weight_mismatch_sqlite\",Yb:\"weight_mismatch_localstorage\",Wb:\"weight_mismatch_fpcookie\"}),x=!1,B=[],L=[{name:\"windowName\",m:void 0,set:c.pa.A,get:c.pa.w,remove:c.pa.remove,value:c.pa.value,\nC:\"0001\",I:w.Ub,weight:0,K:\"\"},{name:\"indexDB\",m:void 0,set:l,get:l,remove:function(){c.indexedDB.nc(\"DI_DB\")},value:c.indexedDB.value,C:\"0010\",I:w.Qb,weight:100,K:w.Xb},{name:\"openDB\",m:void 0,set:a,get:a,remove:function(){c.openDatabase.oc(v)},value:c.openDatabase.value,C:\"0011\",I:w.Tb,weight:100,K:w.Zb},{name:\"local\",m:void 0,set:c.localStorage.A,get:c.localStorage.w,remove:c.localStorage.remove,value:c.localStorage.value,C:\"0100\",I:w.Rb,weight:80,K:w.Yb},{name:\"cookie\",m:void 0,set:g,get:g,remove:c.F.remove,\nvalue:c.F.value,C:\"0101\",I:w.Pb,weight:80,K:w.Wb},{name:\"session\",m:void 0,set:c.sessionStorage.A,get:c.sessionStorage.w,remove:c.sessionStorage.remove,value:c.sessionStorage.value,C:\"0110\",I:w.Sb,weight:0,K:\"\"}],v={B:\"DI_DB\",description:\"Store DI\",version:\"1.0\",size:1048576,J:\"ec\"},N,y,A=[],z=\"\";return{ub:function(){N=d.b.xc;var a=d.b.da;return{start:function(b){y=b;a?(z=u.Ib,n()):(A=[],t())},u:d.b.timeout}},Lc:function(){var a=\"\";A.forEach(function(b){0<a.length&&(a+=\";\");a+=b});return a},cb:function(a){var b;\ntry{void 0===a?b=(b=window.localStorage.getItem(\"ewdi1\"))?JSON.parse(b):b:window.localStorage.setItem(\"ewdi1\",a.toString())}catch(c){}return b},wa:function(a){a&&(z=a);return z},ab:u,sc:function(){return 0<A.length?b.stringify(x):\"\"},uc:function(){var a=\"\";B.filter(function(a,b){return B.indexOf(a)==b}).forEach(function(b){a+=\";\"+b});a=a.substring(1);return 0<A.length?b.stringify(a):\"\"}}}(x,I,G,D,u,v);F={Fa:{Ad:\"touchmove\"in window,sd:\"onclick\"in window,td:\"onmousemove\"in window}};v=function(){function d(g,\na){var e=g[0],d=g[1],k=g[2],m=g[3],e=c(e,d,k,m,a[0],7,-680876936),m=c(m,e,d,k,a[1],12,-389564586),k=c(k,d,m,e,a[2],17,606105819),d=c(d,k,m,e,a[3],22,-1044525330),e=c(e,d,k,m,a[4],7,-176418897),m=c(m,e,d,k,a[5],12,1200080426),k=c(k,d,m,e,a[6],17,-1473231341),d=c(d,k,m,e,a[7],22,-45705983),e=c(e,d,k,m,a[8],7,1770035416),m=c(m,e,d,k,a[9],12,-1958414417),k=c(k,d,m,e,a[10],17,-42063),d=c(d,k,m,e,a[11],22,-1990404162),e=c(e,d,k,m,a[12],7,1804603682),m=c(m,e,d,k,a[13],12,-40341101),k=c(k,d,m,e,a[14],17,\n-1502002290),d=c(d,k,m,e,a[15],22,1236535329),e=f(e,d,k,m,a[1],5,-165796510),m=f(m,e,d,k,a[6],9,-1069501632),k=f(k,d,m,e,a[11],14,643717713),d=f(d,k,m,e,a[0],20,-373897302),e=f(e,d,k,m,a[5],5,-701558691),m=f(m,e,d,k,a[10],9,38016083),k=f(k,d,m,e,a[15],14,-660478335),d=f(d,k,m,e,a[4],20,-405537848),e=f(e,d,k,m,a[9],5,568446438),m=f(m,e,d,k,a[14],9,-1019803690),k=f(k,d,m,e,a[3],14,-187363961),d=f(d,k,m,e,a[8],20,1163531501),e=f(e,d,k,m,a[13],5,-1444681467),m=f(m,e,d,k,a[2],9,-51403784),k=f(k,d,m,e,\na[7],14,1735328473),d=f(d,k,m,e,a[12],20,-1926607734),e=h(d^k^m,e,d,a[5],4,-378558),m=h(e^d^k,m,e,a[8],11,-2022574463),k=h(d^m^e,k,d,a[11],16,1839030562),d=h(k^m^e,d,k,a[14],23,-35309556),e=h(d^k^m,e,d,a[1],4,-1530992060),m=h(e^d^k,m,e,a[4],11,1272893353),k=h(d^m^e,k,d,a[7],16,-155497632),d=h(k^m^e,d,k,a[10],23,-1094730640),e=h(d^k^m,e,d,a[13],4,681279174),m=h(e^d^k,m,e,a[0],11,-358537222),k=h(d^m^e,k,d,a[3],16,-722521979),d=h(k^m^e,d,k,a[6],23,76029189),e=h(d^k^m,e,d,a[9],4,-640364487),m=h(e^d^k,\nm,e,a[12],11,-421815835),k=h(e^d^m,k,e,a[15],16,530742520),d=h(k^m^e,d,k,a[2],23,-995338651),e=b(e,d,k,m,a[0],6,-198630844),m=b(m,e,d,k,a[7],10,1126891415),k=b(k,d,m,e,a[14],15,-1416354905),d=b(d,k,m,e,a[5],21,-57434055),e=b(e,d,k,m,a[12],6,1700485571),m=b(m,e,d,k,a[3],10,-1894986606),k=b(k,d,m,e,a[10],15,-1051523),d=b(d,k,m,e,a[1],21,-2054922799),e=b(e,d,k,m,a[8],6,1873313359),m=b(m,e,d,k,a[15],10,-30611744),k=b(k,d,m,e,a[6],15,-1560198380),d=b(d,k,m,e,a[13],21,1309151649),e=b(e,d,k,m,a[4],6,-145523070),\nm=b(m,e,d,k,a[11],10,-1120210379),k=b(k,d,m,e,a[2],15,718787259),d=b(d,k,m,e,a[9],21,-343485551);g[0]=e+g[0]&4294967295;g[1]=d+g[1]&4294967295;g[2]=k+g[2]&4294967295;g[3]=m+g[3]&4294967295}function h(b,a,c,e,d,f){a=(a+b&4294967295)+(e+f&4294967295)&4294967295;return(a<<d|a>>>32-d)+c&4294967295}function c(b,a,c,e,d,f,r){return h(a&c|~a&e,b,a,d,f,r)}function f(b,a,c,e,d,f,r){return h(a&e|c&~e,b,a,d,f,r)}function b(b,a,c,e,d,f,r){return h(c^(a|~e),b,a,d,f,r)}var e=\"0123456789abcdef\".split(\"\");return{za:function(b){var a=\nb,c=a.length;b=[1732584193,-271733879,-1732584194,271733878];var f;for(f=64;f<=a.length;f+=64){for(var h=a.substring(f-64,f),m=[],r=void 0,r=0;64>r;r+=4)m[r>>2]=h.charCodeAt(r)+(h.charCodeAt(r+1)<<8)+(h.charCodeAt(r+2)<<16)+(h.charCodeAt(r+3)<<24);d(b,m)}a=a.substring(f-64);h=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];for(f=0;f<a.length;f++)h[f>>2]|=a.charCodeAt(f)<<(f%4<<3);h[f>>2]|=128<<(f%4<<3);if(55<f)for(d(b,h),f=0;16>f;f++)h[f]=0;h[14]=8*c;d(b,h);for(a=0;a<b.length;a++){c=b[a];f=\"\";for(h=0;4>h;h++)f+=\ne[c>>8*h+4&15]+e[c>>8*h&15];b[a]=f}return b.join(\"\")}}}();ea=function(d){var h=null,c=\"\";return{ta:function(){return{start:function(f){h=\"\";var b=window.document.createElement(\"canvas\");b.width=1500;b.height=200;b.style.display=\"inline\";var e=b.getContext(\"2d\");e.rect(0,0,10,10);e.rect(2,2,6,6);e.strokeRect(0,0,1500,200);h+=!1===e.isPointInPath(5,5,\"evenodd\")?\"yes\":\"no\";e.textBaseline=\"alphabetic\";e.fillStyle=\"#f60\";e.fillRect=(125,1,62,20);e.fillStyle=\"#069\";e.fillText(\"PR flacks quiz gym: TV DJ box when? \\u00e4\\u00f6\\u00fc\\u00df, \\ud83d\\ude03 \\ud83d\\ude48\",\n2,15);e.fillStyle=\"rgba(102, 204, 0, 0.2)\";e.font=\"18pt Arial\";e.fillText(\"PR flacks quiz gym: TV DJ box when? \\u00e4\\u00f6\\u00fc\\u00df, \\ud83d\\ude03 \\ud83d\\ude48\",4,45);e.globalCompositeOperation=\"darken\";e.fillStyle=\"rgb(255, 0, 255)\";e.beginPath();e.arc(50,50,50,0,2*Math.PI,!0);e.closePath();e.fill();e.fillStyle=\"rgb(0, 255, 255\";e.beginPath();e.arc(100,50,50,0,2*Math.PI,!0);e.closePath();e.fill();e.fillStyle=\"rgb(255, 255, 0)\";e.beginPath();e.arc(75,100,50,0,2*Math.PI,!0);e.closePath();e.fill();\ne.fillStyle=\"rgb(255, 0, 255)\";e.arc(75,75,75,0,2*Math.PI,!0);e.arc(75,75,25,0,2*Math.PI,!0);e.fill(\"evenodd\");if(!b.toDataURL)return\"\";h+=b.toDataURL();c=d.za(h);f.a()}}},Nc:function(){return c}}}(v);fa=function(d,h){function c(){if(!b&&(b=new (d.N([\"AudioContext\",\"webkitAudioContext\"])),!b))throw Error(\"No Audio Context detection possible.\");return b}var f=\"\",b=null;return{getParameter:function(b,d){d||(d=c());var a=d.destination;return\"sampleRate\"===b?null!=d.sampleRate?d.sampleRate.toString():\n\"\":null!=a[b]?a[b].toString():\"\"},ta:function(){return{start:function(b){try{c()}catch(d){}this.context=new (window.OfflineAudioContext||window.webkitOfflineAudioContext)(1,44100,44100);if(!this.context)throw b.a(),Error(\"No Audio Fingerprint possible.\");this.context.oncomplete=function(c){f=c.renderedBuffer.getChannelData(0).slice(4500,5E3).reduce(function(a,b){return a+Math.abs(b)},0).toString();g.disconnect();a.disconnect();b.a()};var g=this.context.createOscillator();g.type=\"triangle\";g.frequency.setValueAtTime(1E4,\nthis.context.currentTime);for(var a=this.context.createDynamicsCompressor(),h=[[\"threshold\",-50],[\"knee\",40],[\"ratio\",12],[\"reduction\",-20],[\"attack\",0],[\"release\",.25]],n=0;n<h.length;n++){var k=h[n][0],m=h[n][1];void 0!==a[k]&&\"function\"===typeof a[k].setValueAtTime&&a[k].setValueAtTime(m,this.context.currentTime)}g.connect(a);a.connect(this.context.destination);g.start(0);this.context.startRendering()},u:h.b.timeout}},Mc:function(){return f?f:\"\"}}}(u,x);z={Gd:function(d){return{pd:function(){return d.stringify(navigator.webdriver)}}}(u),\nfc:z,rd:function(d){return{Rc:function(){try{return d.stringify(navigator.mimeTypes.length)}catch(h){return\"\"}}}}(u),Na:function(){return{Bd:function(){try{return document.createEvent(\"TouchEvent\"),!0}catch(d){return!1}},ud:function(){return\"ontouchstart\"in window},Ha:function(){return navigator.msMaxTouchPoints?navigator.msMaxTouchPoints:navigator.Ha?navigator.Ha:0}}}(),rc:function(d){return{Sc:function(){return d.stringify(navigator.deviceMemory)}}}(u)};ga=function(d){return{wd:function(){var h=\nwindow.matchMedia(\"(-moz-device-pixel-ratio)\");return d.stringify(h.matches)},jd:function(){return window.matchMedia(\"-moz-mac-graphite-theme\").matches},Hd:function(){return window.matchMedia(\"-moz-windows-theme\").matches},vd:function(){return window.matchMedia(\"-moz-os-version\").matches}}}(u);y=function(){return{pc:function(){var d=\"\";return d=window.innerHeight>window.innerWidth?\"portrait\":\"landscape\"},Vc:function(){var d=window.screen.height,h=window.screen.width,c=d*h,f=-1!==window.navigator.userAgent.indexOf(\" Firefox\/\");\nif(window.devicePixelRatio&&f)for(d=Math.round(window.devicePixelRatio*d),h=Math.round(window.devicePixelRatio*h),c=d*h,d=[{min:76241,max:77361,product:76800},{min:306081,max:308321,product:307200},{min:478601,max:481401,product:48E4},{min:612777,max:616025,product:614400},{min:784641,max:788225,product:786432},{min:993313,max:997345,product:995328},{min:919601,max:923601,product:921600},{min:980993,max:985089,product:983040},{min:1021921,max:1026081,product:1024E3},{min:1308417,max:1313025,product:1310720},\n{min:1042353,max:1046609,product:1044480},{min:1046955,max:1051223,product:1049088},{min:1293661,max:1298341,product:1296E3},{min:1437501,max:1442501,product:144E4},{min:1917201,max:1922801,product:192E4},{min:1761271,max:1766731,product:1764E3},{min:2070601,max:2076601,product:2073600},{min:2300881,max:2307121,product:2304E3},{min:3682401,max:3690401,product:3686400},{min:4091841,max:4100161,product:4096E3},{min:8288401,max:8300401,product:8294400},{min:33165601,max:33189601,product:33177600}],h=\n0;h<d.length;){if(c>=d[h].min&&c<=d[h].max){c=d[h].product;break}h++}return c}}}();D=function(d,h,c,f,b,e,g,a,l,n,k,m,r,q,t,u,w,x,B,v,y,z,D){function A(a){H();a=a||b.b.xb;try{if(!a)return F();var d;d=c.ga(a);if(null===d||void 0===d)return F();try{var e=F();d.value=e;var f=b.b.onValidate;\"function\"===typeof f&&f(e);return e}catch(g){d.value=escape(g.message)}}catch(g){}}function E(){var a=window.eco;if(window[a]){var c=window[a].c[0][0],e=O(c);if(null!=e){var f=M(b.b.xb);e.appendChild(f);b.b.P&&(f=\nM(b.b.P),e.appendChild(f))}c=P(c);C(c);window[a]=function(a){var e=c;b.L=[d.Wa,r.Xa];var f=a?a.enableWDI1:void 0;\"boolean\"===typeof f&&(!1===f&&q.wa(q.ab.Pa),q.cb(f),f!==e.enableWDI1&&(b.b.da=f,b.L.push(q.ub)));C(a)}}}function C(){H();var a=null,c=arguments.length;1==c?\"function\"===typeof arguments[0]?b.b.Ja=arguments[0]:a=arguments[0]:1<c&&(b.b.Ja=arguments[0],a=arguments[1]);b.b.validateOnSubmit=void 0;b.b.onValidate=void 0;b.b.onInitialize=void 0;b.b.onInitializeTimeout=void 0;b.b.onResourceTimeout=\nvoid 0;c=t((new Date).getTime())&&\"\";c=\"string\"!==typeof c?J(c):{};I(b.b,c,[]);c=\"resourceURL timeout validateOnSubmit onValidate formSelector onInitialize onInitializeTimeout onResourceTimeout\".split(\" \");a&&Array.isArray(a)&&(c=[]);var a=a?J(a):{},d=a.timeout;(null===d||isNaN(d))&&delete a.timeout;I(b.b,a,c);a=b.L;c=[];for(d=0;d<a.length;d++)try{c.push(a[d]())}catch(e){}a=l.Ia(c);a=l.Ka(a);a.oa(K);b.aa=a;b.b.validateOnSubmit&&O().addEventListener(\"submit\",Q,!0);for(a=0;a<b.Ma.length;a++)b.Ma[a]()}\nfunction H(){b.aa&&(b.aa.pb(),b.aa=null)}function K(){var a=b.b.Ja;\"function\"===typeof a&&a();b.b.validateOnSubmit||A()}function F(){R=new Date;n.yd(R);g.qc();for(var a=\"\",c=0;c<e.h.length;c++){var d;try{d=e.h[c]()}catch(f){d=\"\"}a+=escape(d);a+=\";\"}a+=escape(b.ra.ca())+\";\";for(c=0;c<e.la.length;c++)a=e.la[c](a);return U?h.ua(a):a}function G(a){return function(){return a}}function I(a,b,c){for(var d=Object.keys(b),e=c.length,f=d.length,g=0;g<f;g++){var h=d[g];if(0==e||0<=c.indexOf(h))a[h]=b[h]}}function J(a){if(Array.isArray(a)&&\na.length){var b={};return a.reduce(function(a,c,d){switch(d){case 0:b.resourceURL=c;break;case 1:b.ob=c;break;case 2:b.P=c;break;case 3:b.Ua=c;break;case 4:b.Ta=c;break;case 5:b.$a=c;break;case 6:b.onInitialize=c}return b},0)}return\"object\"===typeof a?a:{}}function P(a){a||(a={});var c=q.cb();c||!0===a.enableWDI1&&!1!==c?b.b.da=!0:(!1===c&&q.wa(q.ab.Pa),a.enableWDI1=!1,b.b.da=!1);return a}function M(a){var b=c.ga(a);if(b)return b;b=document.createElement(\"input\");b.setAttribute(\"id\",a);b.setAttribute(\"name\",\na);b.setAttribute(\"type\",\"hidden\");return b}function O(a){var d=b.b.formSelector;a&&a.formSelector&&(d=a.formSelector);if(a=d?c.ga(d):void 0)return a;0<document.forms.length?a=document.forms[0]:(a=document.body,window.console.warn(\"No form element available in document. Fields are added to document body.\"));return a}function Q(){A()}var U=!0,S={},V=\"\",p=G(\"\");b.ra=new e.zb(5);b.ra.xd([function(){return a.Gc()},function(){return a.ed().replace(\/ {0,999}(\\d{3}) [^ ]*( \"[^\"\\\\]*(\\\\(.|\\n)[^\"\\\\]*)*\"){1,2} *\/g,\nfunction(a,b){return b})},function(){return a.hd()},function(){return a.dd()},function(){return Math.round(window.screen.width*f.ea())},function(){return Math.round(window.screen.height*f.ea())},function(){return c.f(\"screen.left\")},function(){return c.f(\"screen.top\")},function(){return c.f(\"innerWidth\")},function(){return c.f(\"outerWidth\")}]);var R;e.h=[G(\"TF1\"),G(\"033\"),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,function(){return c.f(\"navigator.appCodeName\")},function(){return c.f(\"navigator.appName\")},\nfunction(){return c.f(\"navigator.appVersion\")},function(){return c.N([\"navigator.productSub\",\"navigator.appMinorVersion\"])},function(){return c.f(\"navigator.browserLanguage\")},function(){return c.f(\"navigator.cookieEnabled\")},function(){return c.N([\"navigator.oscpu\",\"navigator.cpuClass\"])},p,function(){return c.f(\"navigator.platform\")},function(){return c.f(\"navigator.systemLanguage\")},function(){return m.ca()},function(){return c.N([\"navigator.language\",\"navigator.userLanguage\"])},function(){return c.f(\"document.defaultCharset\")},\nfunction(){return c.f(\"document.domain\")},function(){return c.f(\"screen.deviceXDPI\")},function(){return c.f(\"screen.deviceYDPI\")},function(){return c.f(\"screen.fontSmoothingEnabled\")},function(){return c.f(\"screen.updateInterval\")},function(){return n.od()},function(){return n.nd()},function(){return\"@UTC@\"},function(){return-n.Zc()\/60},function(){return(new Date(2005,5,7,21,33,44,888)).toLocaleString().replace(\/\\u200e\/g,\"\")},function(){return c.f(\"screen.width\")},function(){return c.f(\"screen.height\")},\nfunction(){return g.G(\"Acrobat\")},function(){return g.G(\"Flash\")},function(){return g.G(\"QuickTime\")},function(){return g.G(\"Java Plug-in\")},function(){return g.G(\"Director\")},function(){return g.G(\"Office\")},function(){return\"@CT@\"},function(){return n.gd()},function(){return n.$c()},function(){return R.toLocaleString().replace(\/\\u200e\/g,\"\")},function(){return c.f(\"screen.colorDepth\")},function(){return c.f(\"screen.availWidth\")},function(){return c.f(\"screen.availHeight\")},function(){return c.f(\"screen.availLeft\")},\nfunction(){return c.f(\"screen.availTop\")},function(){return g.g(\"Acrobat\")},function(){return g.g(\"Adobe SVG\")},function(){return g.g(\"Authorware\")},function(){return g.g(\"Citrix ICA\")},function(){return g.g(\"Director\")},function(){return g.g(\"Flash\")},function(){return g.g(\"MapGuide\")},function(){return g.g(\"MetaStream\")},function(){return g.g(\"PDF Viewer\")},function(){return g.g(\"QuickTime\")},function(){return g.g(\"RealOne\")},function(){return g.g(\"RealPlayer Enterprise\")},function(){return g.g(\"RealPlayer Plugin\")},\nfunction(){return g.g(\"Seagate Software Report\")},function(){return g.g(\"Silverlight\")},function(){return g.g(\"Windows Media\")},function(){return g.g(\"iPIX\")},function(){return g.g(\"nppdf.so\")},function(){var a=document.createElement(\"span\");a.innerHTML=\"&nbsp;\";a.style.position=\"absolute\";a.style.left=\"-9999px\";document.body.appendChild(a);var b=a.offsetHeight;document.body.removeChild(a);return b},p,p,p,p,p,p,p,p,p,p,p,p,p,p,function(){return\"8.1.2\"},p,function(){return a.Qc()},p,p,p,p,p,function(){var b=\na.ya();return\"boolean\"===typeof b?0+b:\"\"},function(){return a.Ca()},function(){return\"0\"},p,p,p,p,function(){return(c.kd(g.Uc())>>>0).toString(16)+\"\"},function(){return c.N([\"navigator.doNotTrack\",\"navigator.msDoNotTrack\"])},p,p,p,p,p,p,function(){return k.qd()},function(){return k.Dc()},function(){return k.Fc()},function(){return k.Aa()},function(){return k.nb()},function(){return k.fb()},function(){return k.mb()},function(){return k.kb()},function(){return k.gb()},function(){return k.lb()},function(){return k.ia()},\nfunction(){return V},function(){var a=d.va();return\"boolean\"===typeof a?0+a:\"\"},function(){return c.f(\"devicePixelRatio\")},function(){return f.zoom().toFixed(2)},function(){return c.f(\"navigator.languages\")},function(){return r.Bc()},function(){return q.Lc()},function(){return q.wa()},function(){return q.sc()},function(){return q.uc()},function(){return D.pc()},function(){return D.Vc()},function(){return n.ad()},function(){return x.Nc()},function(){return v.rd.Rc()},function(){return v.Gd.pd()},function(){return v.fc.Za()},\nfunction(){return u.md()},function(){return v.rc.Sc()},function(){return y.sessionStorage.o()},function(){return y.localStorage.o()},function(){return y.indexedDB.o()},function(){return y.openDatabase.o()},function(){return v.Na.Bd()},function(){return v.Na.ud()},function(){return v.Na.Ha()},function(){return w.Fa.Ad},function(){return w.Fa.sd},function(){return w.Fa.td},function(){return B.Mc()},function(){return B.getParameter(\"sampleRate\")},function(){return B.getParameter(\"maxChannelCount\")},\nfunction(){return B.getParameter(\"numberOfInputs\")},function(){return B.getParameter(\"numberOfOutputs\")},function(){return B.getParameter(\"channelCount\")},function(){return B.getParameter(\"channelCountMode\")},function(){return B.getParameter(\"channelInterpretation\")},function(){return z.vd()},function(){return z.jd()},function(){return z.Hd()},function(){return z.wd()}];e.la=[function(a){return c.ka(a,encodeURI(\"@UTC@\"),(new Date).getTime())},function(a){return c.ka(a,encodeURI(\"@CT@\"),(new Date).getTime()-\nR.getTime())}];b.L.push(B.ta,q.ub,a.M,function(){return{start:function(a){V=\"\";try{navigator.getBattery().then(function(b){a.i()||(V=[b.charging,b.chargingTime,b.dischargingTime,b.level].join(),a.a())})}catch(b){a.a()}},u:b.b.timeout}},d.Wa,r.Xa,k.kc,x.ta);window.addEventListener(\"load\",function(){E()});S.validate=A;S.f1b5=h.ua;S.initiate=C;return function(a){a=a||{};var b=a.ctx||window;U=a.hasOwnProperty(\"compress\")?a.compress:!0;b.adx=S;U&&(a=navigator.userAgent.toLowerCase(),\"Gecko\"===navigator.product&&\n2>=parseInt(a.substring(a.indexOf(\"rv:\")+3,a.indexOf(\")\",a.indexOf(\"rv:\")+3)).split(\".\")[0],10)&&A());return{ca:A,Zd:C,Yd:E}}}(E,H,u,Y,x,P,Z,aa,D,ba,J,ca,da,K,I,function(){return{md:function(){return!!(window.File&&window.FileReader&&window.FileList)}}}(),F,ea,fa,z,G,ga,y);E=function(d){function h(c){this.canvas=c}h.prototype.getImageData=function(){return new d.getImageData(Array(this.canvas.width*this.canvas.height*4),this.canvas.width,this.canvas.height)};return{Hc:h}}(function(){return{getImageData:function(){switch(arguments.length){case 2:this.width=\narguments[0];this.height=arguments[1];break;case 3:this.data=new Uint8ClampedArray(arguments[0]),this.width=arguments[1],this.height=arguments[2]}}}}());H=function(){function d(c){this.canvas=c;this.drawingBufferWidth=c.width;this.drawingBufferHeight=c.height}var h={DEPTH_BUFFER_BIT:256,STENCIL_BUFFER_BIT:1024,COLOR_BUFFER_BIT:16384,POINTS:0,LINES:1,LINE_LOOP:2,LINE_STRIP:3,TRIANGLES:4,TRIANGLE_STRIP:5,TRIANGLE_FAN:6,ZERO:0,ONE:1,SRC_COLOR:768,ONE_MINUS_SRC_COLOR:769,SRC_ALPHA:770,ONE_MINUS_SRC_ALPHA:771,\nDST_ALPHA:772,ONE_MINUS_DST_ALPHA:773,DST_COLOR:774,ONE_MINUS_DST_COLOR:775,SRC_ALPHA_SATURATE:776,FUNC_ADD:32774,BLEND_EQUATION:32777,BLEND_EQUATION_RGB:32777,BLEND_EQUATION_ALPHA:34877,FUNC_SUBTRACT:32778,FUNC_REVERSE_SUBTRACT:32779,BLEND_DST_RGB:32968,BLEND_SRC_RGB:32969,BLEND_DST_ALPHA:32970,BLEND_SRC_ALPHA:32971,CONSTANT_COLOR:32769,ONE_MINUS_CONSTANT_COLOR:32770,CONSTANT_ALPHA:32771,ONE_MINUS_CONSTANT_ALPHA:32772,BLEND_COLOR:32773,ARRAY_BUFFER:34962,ELEMENT_ARRAY_BUFFER:34963,ARRAY_BUFFER_BINDING:34964,\nELEMENT_ARRAY_BUFFER_BINDING:34965,STREAM_DRAW:35040,STATIC_DRAW:35044,DYNAMIC_DRAW:35048,BUFFER_SIZE:34660,BUFFER_USAGE:34661,CURRENT_VERTEX_ATTRIB:34342,FRONT:1028,BACK:1029,FRONT_AND_BACK:1032,TEXTURE_2D:3553,CULL_FACE:2884,BLEND:3042,DITHER:3024,STENCIL_TEST:2960,DEPTH_TEST:2929,SCISSOR_TEST:3089,POLYGON_OFFSET_FILL:32823,SAMPLE_ALPHA_TO_COVERAGE:32926,SAMPLE_COVERAGE:32928,NO_ERROR:0,INVALID_ENUM:1280,INVALID_VALUE:1281,INVALID_OPERATION:1282,OUT_OF_MEMORY:1285,CW:2304,CCW:2305,LINE_WIDTH:2849,\nALIASED_POINT_SIZE_RANGE:33901,ALIASED_LINE_WIDTH_RANGE:33902,CULL_FACE_MODE:2885,FRONT_FACE:2886,DEPTH_RANGE:2928,DEPTH_WRITEMASK:2930,DEPTH_CLEAR_VALUE:2931,DEPTH_FUNC:2932,STENCIL_CLEAR_VALUE:2961,STENCIL_FUNC:2962,STENCIL_FAIL:2964,STENCIL_PASS_DEPTH_FAIL:2965,STENCIL_PASS_DEPTH_PASS:2966,STENCIL_REF:2967,STENCIL_VALUE_MASK:2963,STENCIL_WRITEMASK:2968,STENCIL_BACK_FUNC:34816,STENCIL_BACK_FAIL:34817,STENCIL_BACK_PASS_DEPTH_FAIL:34818,STENCIL_BACK_PASS_DEPTH_PASS:34819,STENCIL_BACK_REF:36003,STENCIL_BACK_VALUE_MASK:36004,\nSTENCIL_BACK_WRITEMASK:36005,VIEWPORT:2978,SCISSOR_BOX:3088,COLOR_CLEAR_VALUE:3106,COLOR_WRITEMASK:3107,UNPACK_ALIGNMENT:3317,PACK_ALIGNMENT:3333,MAX_TEXTURE_SIZE:3379,MAX_VIEWPORT_DIMS:3386,SUBPIXEL_BITS:3408,RED_BITS:3410,GREEN_BITS:3411,BLUE_BITS:3412,ALPHA_BITS:3413,DEPTH_BITS:3414,STENCIL_BITS:3415,POLYGON_OFFSET_UNITS:10752,POLYGON_OFFSET_FACTOR:32824,TEXTURE_BINDING_2D:32873,SAMPLE_BUFFERS:32936,SAMPLES:32937,SAMPLE_COVERAGE_VALUE:32938,SAMPLE_COVERAGE_INVERT:32939,COMPRESSED_TEXTURE_FORMATS:34467,\nDONT_CARE:4352,FASTEST:4353,NICEST:4354,GENERATE_MIPMAP_HINT:33170,BYTE:5120,UNSIGNED_BYTE:5121,SHORT:5122,UNSIGNED_SHORT:5123,INT:5124,UNSIGNED_INT:5125,FLOAT:5126,DEPTH_COMPONENT:6402,ALPHA:6406,RGB:6407,RGBA:6408,LUMINANCE:6409,LUMINANCE_ALPHA:6410,UNSIGNED_SHORT_4_4_4_4:32819,UNSIGNED_SHORT_5_5_5_1:32820,UNSIGNED_SHORT_5_6_5:33635,FRAGMENT_SHADER:35632,VERTEX_SHADER:35633,MAX_VERTEX_ATTRIBS:34921,MAX_VERTEX_UNIFORM_VECTORS:36347,MAX_VARYING_VECTORS:36348,MAX_COMBINED_TEXTURE_IMAGE_UNITS:35661,\nMAX_VERTEX_TEXTURE_IMAGE_UNITS:35660,MAX_TEXTURE_IMAGE_UNITS:34930,MAX_FRAGMENT_UNIFORM_VECTORS:36349,SHADER_TYPE:35663,DELETE_STATUS:35712,LINK_STATUS:35714,VALIDATE_STATUS:35715,ATTACHED_SHADERS:35717,ACTIVE_UNIFORMS:35718,ACTIVE_ATTRIBUTES:35721,SHADING_LANGUAGE_VERSION:35724,CURRENT_PROGRAM:35725,NEVER:512,LESS:513,EQUAL:514,LEQUAL:515,GREATER:516,NOTEQUAL:517,GEQUAL:518,ALWAYS:519,KEEP:7680,REPLACE:7681,INCR:7682,DECR:7683,INVERT:5386,INCR_WRAP:34055,DECR_WRAP:34056,VENDOR:7936,RENDERER:7937,\nVERSION:7938,NEAREST:9728,LINEAR:9729,NEAREST_MIPMAP_NEAREST:9984,LINEAR_MIPMAP_NEAREST:9985,NEAREST_MIPMAP_LINEAR:9986,LINEAR_MIPMAP_LINEAR:9987,TEXTURE_MAG_FILTER:10240,TEXTURE_MIN_FILTER:10241,TEXTURE_WRAP_S:10242,TEXTURE_WRAP_T:10243,TEXTURE:5890,TEXTURE_CUBE_MAP:34067,TEXTURE_BINDING_CUBE_MAP:34068,TEXTURE_CUBE_MAP_POSITIVE_X:34069,TEXTURE_CUBE_MAP_NEGATIVE_X:34070,TEXTURE_CUBE_MAP_POSITIVE_Y:34071,TEXTURE_CUBE_MAP_NEGATIVE_Y:34072,TEXTURE_CUBE_MAP_POSITIVE_Z:34073,TEXTURE_CUBE_MAP_NEGATIVE_Z:34074,\nMAX_CUBE_MAP_TEXTURE_SIZE:34076,TEXTURE0:33984,TEXTURE1:33985,TEXTURE2:33986,TEXTURE3:33987,TEXTURE4:33988,TEXTURE5:33989,TEXTURE6:33990,TEXTURE7:33991,TEXTURE8:33992,TEXTURE9:33993,TEXTURE10:33994,TEXTURE11:33995,TEXTURE12:33996,TEXTURE13:33997,TEXTURE14:33998,TEXTURE15:33999,TEXTURE16:34E3,TEXTURE17:34001,TEXTURE18:34002,TEXTURE19:34003,TEXTURE20:34004,TEXTURE21:34005,TEXTURE22:34006,TEXTURE23:34007,TEXTURE24:34008,TEXTURE25:34009,TEXTURE26:34010,TEXTURE27:34011,TEXTURE28:34012,TEXTURE29:34013,\nTEXTURE30:34014,TEXTURE31:34015,ACTIVE_TEXTURE:34016,REPEAT:10497,CLAMP_TO_EDGE:33071,MIRRORED_REPEAT:33648,FLOAT_VEC2:35664,FLOAT_VEC3:35665,FLOAT_VEC4:35666,INT_VEC2:35667,INT_VEC3:35668,INT_VEC4:35669,BOOL:35670,BOOL_VEC2:35671,BOOL_VEC3:35672,BOOL_VEC4:35673,FLOAT_MAT2:35674,FLOAT_MAT3:35675,FLOAT_MAT4:35676,SAMPLER_2D:35678,SAMPLER_CUBE:35680,VERTEX_ATTRIB_ARRAY_ENABLED:34338,VERTEX_ATTRIB_ARRAY_SIZE:34339,VERTEX_ATTRIB_ARRAY_STRIDE:34340,VERTEX_ATTRIB_ARRAY_TYPE:34341,VERTEX_ATTRIB_ARRAY_NORMALIZED:34922,\nVERTEX_ATTRIB_ARRAY_POINTER:34373,VERTEX_ATTRIB_ARRAY_BUFFER_BINDING:34975,IMPLEMENTATION_COLOR_READ_TYPE:35738,IMPLEMENTATION_COLOR_READ_FORMAT:35739,COMPILE_STATUS:35713,LOW_FLOAT:36336,MEDIUM_FLOAT:36337,HIGH_FLOAT:36338,LOW_INT:36339,MEDIUM_INT:36340,HIGH_INT:36341,FRAMEBUFFER:36160,RENDERBUFFER:36161,RGBA4:32854,RGB5_A1:32855,RGB565:36194,DEPTH_COMPONENT16:33189,STENCIL_INDEX:6401,STENCIL_INDEX8:36168,DEPTH_STENCIL:34041,RENDERBUFFER_WIDTH:36162,RENDERBUFFER_HEIGHT:36163,RENDERBUFFER_INTERNAL_FORMAT:36164,\nRENDERBUFFER_RED_SIZE:36176,RENDERBUFFER_GREEN_SIZE:36177,RENDERBUFFER_BLUE_SIZE:36178,RENDERBUFFER_ALPHA_SIZE:36179,RENDERBUFFER_DEPTH_SIZE:36180,RENDERBUFFER_STENCIL_SIZE:36181,FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE:36048,FRAMEBUFFER_ATTACHMENT_OBJECT_NAME:36049,FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL:36050,FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE:36051,COLOR_ATTACHMENT0:36064,DEPTH_ATTACHMENT:36096,STENCIL_ATTACHMENT:36128,DEPTH_STENCIL_ATTACHMENT:33306,NONE:0,FRAMEBUFFER_COMPLETE:36053,FRAMEBUFFER_INCOMPLETE_ATTACHMENT:36054,\nFRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT:36055,FRAMEBUFFER_INCOMPLETE_DIMENSIONS:36057,FRAMEBUFFER_UNSUPPORTED:36061,FRAMEBUFFER_BINDING:36006,RENDERBUFFER_BINDING:36007,MAX_RENDERBUFFER_SIZE:34024,INVALID_FRAMEBUFFER_OPERATION:1286,UNPACK_FLIP_Y_WEBGL:37440,UNPACK_PREMULTIPLY_ALPHA_WEBGL:37441,CONTEXT_LOST_WEBGL:37442,UNPACK_COLORSPACE_CONVERSION_WEBGL:37443,BROWSER_DEFAULT_WEBGL:37444,UNMASKED_RENDERER_WEBGL:37446,UNMASKED_VENDOR_WEBGL:37445,MAX_TEXTURE_MAX_ANISOTROPY_EXT:34047},c={OES_texture_float:{},\nOES_texture_half_float:{},WEBGL_lose_context:{},OES_standard_derivatives:{},OES_vertex_array_object:{},WEBGL_debug_renderer_info:!0,WEBGL_debug_shaders:null,WEBGL_compressed_texture_s3tc:null,WEBGL_depth_texture:{},OES_element_index_uint:{},EXT_texture_filter_anisotropic:!0,WEBKIT_EXT_texture_filter_anisotropic:!0,MOZ_EXT_texture_filter_anisotropic:!0,EXT_frag_depth:{},WEBGL_draw_buffers:{},ANGLE_instanced_arrays:null,OES_texture_float_linear:null,OES_texture_half_float_linear:null,EXT_blend_minmax:null,\nEXT_shader_texture_lod:null,WEBGL_compressed_texture_atc:null,WEBGL_compressed_texture_pvrtc:null,EXT_color_buffer_half_float:null,WEBGL_color_buffer_float:null,EXT_sRGB:null,WEBGL_compressed_texture_etc1:null};\"activeTexture attachShader bindAttribLocation bindBuffer bindFramebuffer bindRenderbuffer bindTexture blendColor blendEquation blendEquationSeparate blendFunc blendFuncSeparate bufferData bufferSubData checkFramebufferStatus clear clearColor clearDepth clearStencil colorMask compileShader compressedTexImage2D compressedTexSubImage2D copyTexImage2D copyTexSubImage2D createBuffer createFramebuffer createProgram createRenderbuffer createShader createTexture cullFace deleteBuffer deleteFramebuffer deleteProgram deleteRenderbuffer deleteShader deleteTexture depthFunc depthMask depthRange detachShader disable disableVertexAttribArray drawArrays drawElements enable enableVertexAttribArray finish flush framebufferRenderbuffer framebufferTexture2D frontFace generateMipmap getActiveAttrib getActiveUniform getAttachedShaders getAttribLocation getBufferParameter getContextAttributes getError getExtension getFramebufferAttachmentParameter getParameter getCanvas getProgramParameter getProgramInfoLog getRenderbufferParameter getShaderParameter getShaderInfoLog getShaderPrecisionFormat getShaderSource getSupportedExtensions getTexParameter getUniform getUniformLocation getVertexAttrib getVertexAttribOffset hint isBuffer isContextLost isEnabled isFramebuffer isProgram isRenderbuffer isShader isTexture lineWidth linkProgram pixelStorei polygonOffset readPixels renderbufferStorage sampleCoverage scissor shaderSource stencilFunc stencilFuncSeparate stencilMask stencilMaskSeparate stencilOp stencilOpSeparate texParameterf texParameteri texImage2D texSubImage2D uniform1f uniform1fv uniform1i uniform1iv uniform2f uniform2fv uniform2i uniform2iv uniform3f uniform3fv uniform3i uniform3iv uniform4f uniform4fv uniform4i uniform4iv uniformMatrix2fv uniformMatrix3fv uniformMatrix4fv useProgram validateProgram vertexAttrib1f vertexAttrib1fv vertexAttrib2f vertexAttrib2fv vertexAttrib3f vertexAttrib3fv vertexAttrib4f vertexAttrib4fv vertexAttribPointer viewport\".split(\" \").forEach(function(c){d.prototype[c]=\nfunction(){return{}}});Object.keys(h).forEach(function(c){d.prototype[c]=h[c]});d.prototype.getExtension=function(d){return c[d]};d.prototype.getParameter=function(c){return 37446===c?\"ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)\":37445===c?\"Google Inc. (Apple)\":34047===c?\"16\":void 0};d.prototype.ib=function(){return\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4\/59BAQAHHgIfjCNqUAAAAABJRU5ErkJggg==\"};return{fd:d}}();E=function(d,h){function c(b){var c=\n(new d.Oc(500,500)).getContext(\"webgl\");\"un_masked_renderer\"==b?b=null!==c&&c.getExtension(\"WEBGL_debug_renderer_info\")?c.getParameter(c.UNMASKED_RENDERER_WEBGL):void 0:\"un_masked_vendor\"==b?b=null!==c&&c.getExtension(\"WEBGL_debug_renderer_info\")?c.getParameter(c.UNMASKED_VENDOR_WEBGL):void 0:\"canvas\"==b?b=null!==c?h.za(c.ib()):void 0:\"max_anisotropic\"==b?null!==c&&(c.getExtension(\"EXT_texture_filter_anisotropic\")||c.getExtension(\"WEBKIT_EXT_texture_filter_anisotropic\")||c.getExtension(\"MOZ_EXT_texture_filter_anisotropic\"))?\n(b=c.getParameter(c.MAX_TEXTURE_MAX_ANISOTROPY_EXT),0===b&&(b=2)):b=void 0:b=\"\";return b}var f=[\"webgl\",\"experimental-webgl\",\"moz-webgl\",\"webkit-3d\"],b=\/android|\\badr\\b|silk|kindle\/i;return{cd:function(d){if(window.WebGLRenderingContext&&!b.test(navigator.userAgent)){for(var g=document.createElement(\"canvas\"),a=null,h=0;h<f.length&&!a;h++)a=g.getContext(f[h]);return null!==a&&a.getExtension(\"WEBGL_debug_renderer_info\")?a.getParameter(37446):d?c(\"un_masked_renderer\"):\"\"}return\"\"},Md:function(){if(!window.WebGLRenderingContext)throw Error();\nvar b={v:null,gc:null,Td:function(b){return this.v.getParameter(b)},Pd:function(b){return this.v.getContextAttributes()[b]},Ud:function(b,a){return this.v.getShaderPrecisionFormat(b,a)},Rd:function(){return this.v.getSupportedExtensions()},ld:function(){if(!this.v){var b=document.createElement(\"canvas\"),a;for(a in f){var c=f[a];if(this.v=b.getContext(c)){this.gc=c;return}}throw Error();}}};b.ld();return b},Vd:function(d){if(window.WebGLRenderingContext&&!b.test(navigator.userAgent)){for(var g=document.createElement(\"canvas\"),\na=null,h=0;h<f.length&&!a;h++)a=g.getContext(f[h]);return null!==a&&a.getExtension(\"WEBGL_debug_renderer_info\")?a.getParameter(37445):d?c(\"un_masked_vendor\"):\"\"}return\"\"},Sd:function(d){if(window.WebGLRenderingContext&&!b.test(navigator.userAgent)){for(var g=document.createElement(\"canvas\"),a=null,h=0;h<f.length&&!a;h++)a=g.getContext(f[h]);return null!==a&&(a.getExtension(\"EXT_texture_filter_anisotropic\")||a.getExtension(\"WEBKIT_EXT_texture_filter_anisotropic\")||a.getExtension(\"MOZ_EXT_texture_filter_anisotropic\"))?\n(d=a.getParameter(34047),0===d&&(d=2),d):d?c(\"max_anisotropic\"):\"\"}return\"\"},ib:function(d){if(window.WebGLRenderingContext&&!b.test(navigator.userAgent)){for(var g=document.createElement(\"canvas\"),a=null,l=0;l<f.length&&!a;l++)a=g.getContext(f[l]);if(null!==a)try{return h.za(a.canvas.toDataURL())}catch(n){return\"\"}else return d?c(\"canvas\"):\"\"}else return\"\"}}}(function(d,h){function c(c,b){this.width=void 0!==c?c:100;this.height=void 0!==b?b:100}c.prototype.getContext=function(c){switch(c){case \"2d\":return new d.Hc(this);\ncase \"webgl\":case \"moz-webgl\":case \"webkit-3d\":case \"experimental-webgl\":return new h.fd(this)}};return{Oc:c}}(E,H),v);(function(d){\"undefined\"!==typeof O?d(O):d()})(function(d,h,c,f,b,e,g,a,l,n){var k=\"\",m=\"\";e.la[0]=function(a){return d.ka(a,escape(\"@UTC@\"),(b.Ic()||new Date).getTime())};e.h[106]=function(){return\"1\"};e.h[108]=function(){return k};e.h[109]=function(){return m};e.h[110]=function(){return h((new Date).getTime())};e.h[113]=function(){return 0+g.va()};e.h[114]=function(){return c.Kc()};\ne.h[115]=function(){var a=c.ya();return\"boolean\"===typeof a?0+a:\"\"};e.h[116]=function(){return c.Ca()};e.h[118]=function(){return l.cd()};f.L.push(b.M,c.M,g.ic,g.jc);f.Ma.push(function(){k=m=\"\";var a=f.b.Ua;a&&((m=n.get(a))?k=\"0\":(m=h((new Date).getTime()),n.set(a,m),k=\"1\"))});return function(b){a(b)}}(u,I,Q,x,W,P,X,D,E,C))})();\n\""
+    },
+    {
+      "filePath": "\/Users\/jenksvc\/jenkins\/workspace\/_ios-swift_release_rc-saas-8.0.3@2\/di-collector-ios-fraud\/src\/xcode\/DeviceInsight\/NativeCollector.swift",
+      "kind": "Array",
+      "offset": 444,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
