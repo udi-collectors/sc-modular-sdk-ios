@@ -34,11 +34,30 @@ public final class ModuleBox<M: Module>: AnyModule {
     ///
     /// - Parameter builder: A configuration builder populated
     ///   by the orchestrator.
-    /// - Throws: Rethrows any error thrown by the underlying module.
-    public func configure(_ builder: ConfigureBuilder) async throws {
-        guard let config: M.Config = builder.getConfig(for: module.key) else { return }
-        
-        try await module.configure(config)
+    ///
+    /// Behavior:
+    /// - If no config was set for the module's key, the configure is
+    ///   skipped and logged at `.default` (a missing config can be legitimate).
+    /// - If a config was set but fails to cast to `M.Config`, the configure
+    ///   is skipped and logged at `.error`.
+    /// - If the module's `configure` returns `.failure`, the failure is
+    ///   logged at `.error`.
+    public func configure(_ builder: ConfigureBuilder) async {
+        guard builder.hasConfig(for: module.key) else {
+            let reason = ModuleError.missingConfig(moduleKey: module.key.name)
+            Logger.log("Skipping configure: \(reason)", type: .default)
+            return
+        }
+
+        guard let config: M.Config = builder.getConfig(for: module.key) else {
+            let reason = ModuleError.invalidConfig(moduleKey: module.key.name)
+            Logger.log("Skipping configure: \(reason)", type: .error)
+            return
+        }
+
+        if case .failure(let error) = await module.configure(config) {
+            Logger.log("Configure failed for module \(module.key.name): \(error)", type: .error)
+        }
     }
     
     /// Starts asynchronous data collection on the wrapped module.
@@ -50,20 +69,22 @@ public final class ModuleBox<M: Module>: AnyModule {
     
     /// Ends collection and inserts the module result into the given collection.
     ///
-    /// If the module returns `nil` from `endCollect()`, no value
-    /// is inserted and the operation is silently ignored.
-    ///
     /// - Parameters:
     ///   - collection: The shared `ModuleCollection` used to
     ///     aggregate results across modules.
-    /// - Throws: Rethrows any error thrown by `endCollect()`.
+    ///
+    /// Behavior:
+    /// - `.success(let value)` inserts the value into the collection.
+    /// - `.failure(let error)` inserts the error into the collection.
+    /// - `nil` inserts nothing.
     public func collect(into collection: inout ModuleCollection) async {
-        do {
-            if let value = try await module.endCollect() {
-                collection.insert(module.key, value: value)
-            }
-        } catch let error {
+        switch module.endCollect() {
+        case .success(let value):
+            collection.insert(module.key, value: value)
+        case .failure(let error):
             collection.insertError(module.key, error: error)
+        case .none:
+            break
         }
     }
     

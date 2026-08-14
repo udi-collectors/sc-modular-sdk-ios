@@ -1,6 +1,6 @@
 //  Copyright (c) Experian, 2026. All rights reserved.
 //
-//  Collector.swift
+//  DeviceIntelligenceCollector.swift
 //  ModularSDK
 //
 //
@@ -136,14 +136,14 @@ public final class CollectorModule: Module {
     
     /// Ends the collection process and returns the collected payload.
     ///
-    /// - Returns: The collected `UDIResponse`.
-    ///
-    /// - Throws: A runtime failure if no payload was previously collected.
+    /// - Returns: `nil` if no payload was previously collected,
+    ///   otherwise `.success` carrying the collected `UDIResponse`.
     ///
     /// - Important: `startCollect()` or `startCollectSync()` must be
     ///   called before invoking this method.
-    public func endCollect() -> UDIResponse? {
-        return payload
+    public func endCollect() -> ModuleResult<UDIResponse>? {
+        guard let payload = payload else { return nil }
+        return .success(payload)
     }
     
     /// Configures the underlying UDI collector.
@@ -151,13 +151,14 @@ public final class CollectorModule: Module {
     /// - Parameter configure: A typed configuration builder expected
     ///   to be `UDIConfigureBuilder`.
     ///
-    /// - Throws: A runtime failure if the provided configuration is invalid.
+    /// - Returns: `.success(())` once the URL has been handed to the collector.
     ///
     /// Preconditions:
     /// - The builder must be of type `UDIConfigureBuilder`.
     /// - A valid configuration URL must be provided.
-    public func configure(_ configure: UDIConfig) async {
+    public func configure(_ configure: UDIConfig) async -> ModuleResult<Void> {
         await udiCollector.setConfig(configURL: configure.url)
+        return .success(())
     }
 }
 

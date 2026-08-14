@@ -90,17 +90,17 @@ public protocol Module {
     
     /// Ends the collection phase and returns the collected result.
     ///
-    /// - Returns: The collected output, or `nil` if no data
-    ///   was produced.
-    /// - Throws: An error if finalization fails.
-    func endCollect() -> Output?
+    /// - Returns: `nil` if the module produced nothing, `.success` carrying
+    ///   the collected output, or `.failure` if the module tried and failed.
+    func endCollect() -> ModuleResult<Output>?
     
     /// Applies runtime configuration to the module.
     ///
     /// - Parameter configure: A builder containing configuration
     ///   values provided at runtime.
-    /// - Throws: An error if configuration fails.
-    func configure(_ configure: Config) async
+    /// - Returns: `.success(())` on success, or `.failure` with a
+    ///   `ModuleError` describing why configuration failed.
+    func configure(_ configure: Config) async -> ModuleResult<Void>
 }
 
 

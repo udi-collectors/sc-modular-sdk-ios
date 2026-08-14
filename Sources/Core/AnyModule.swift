@@ -25,8 +25,8 @@ public protocol AnyModule {
     /// Applies runtime configuration to the module.
     ///
     /// - Parameter builder: A configuration builder populated by the orchestrator.
-    /// - Throws: Rethrows any error produced by the underlying module.
-    func configure(_ builder: ConfigureBuilder) async throws
+    /// - Note: Configuration failures are logged, not thrown.
+    func configure(_ builder: ConfigureBuilder) async
     
     /// Starts asynchronous data collection.
     ///

@@ -44,4 +44,15 @@ public protocol ConfigureBuilder {
     func getConfig<Value, Config>(
         for key: ModuleKey<Value>
     ) -> Config?
+    
+    /// Reports whether a configuration value has been set for the given module key.
+    ///
+    /// This is a presence check only — it performs no cast, so a stored value
+    /// of the wrong type still reports `true`.
+    ///
+    /// - Parameter key: A typed module key identifying the configuration entry.
+    /// - Returns: `true` if a value has been set for the key, `false` otherwise.
+    func hasConfig<Value>(
+        for key: ModuleKey<Value>
+    ) -> Bool
 }

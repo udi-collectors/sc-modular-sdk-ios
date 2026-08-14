@@ -1,6 +1,6 @@
 //  Copyright (c) Experian, 2026. All rights reserved.
 //
-//  Collector.swift
+//  DeviceInsightCollector.swift
 //  ModularSDK
 //
 //
@@ -99,15 +99,16 @@ public final class DICollectorModule: Module {
 
     /// Ends the collection phase and returns the previously collected payload.
     ///
-    /// - Returns: The `DIResponse` captured during `startCollect()`, or `nil`
-    ///   when no payload has been collected.
-    /// - Throws: Propagate errors if the end phase requires validation or
-    ///   finalization steps that may fail (none at the moment).
-    public func endCollect() -> DIResponse? {
-        return payload
+    /// - Returns: `nil` when no payload has been collected, otherwise
+    ///   `.success` carrying the `DIResponse` captured during `startCollect()`.
+    public func endCollect() -> ModuleResult<DIResponse>? {
+        guard let payload = payload else { return nil }
+        return .success(payload)
     }
     
-    public func configure(_ configure: UDIConfig) async { }
+    public func configure(_ configure: UDIConfig) async -> ModuleResult<Void> {
+        return .success(())
+    }
 }
 
 #if canImport(DeviceInsight)
@@ -122,4 +123,7 @@ public func loadDiModule() {
     ModularOrchestrator.shared.register(DICollectorModule())
 }
 #endif
+
+#if canImport(DeviceInsight)
 extension DeviceInsightCollector: DICollecting { }
+#endif

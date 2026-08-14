@@ -128,7 +128,6 @@ public final class ModularOrchestrator {
     /// asynchronous preparation before collection begins.
     public func loadCollector() async {
         for module in modules {
-            handleError(module: module)
             await module.loadCollector()
         }
     }
@@ -150,21 +149,18 @@ public final class ModularOrchestrator {
     /// Ends collection for all registered modules and aggregates results.
     ///
     /// Each module contributes its result into the provided
-    /// `ModuleCollection`. Errors thrown by individual modules
-    /// are caught and do not stop aggregation.
+    /// `ModuleCollection`. Per-module failures are recorded in the
+    /// `ModuleCollection` rather than stopping aggregation.
     ///
-    /// - Returns: A populated `ModuleCollection` containing
-    ///   all successfully collected module outputs.
+    /// - Returns: A populated `ModuleCollection` holding each module's
+    ///   output on success and its `ModuleError` on failure. Modules that
+    ///   produced nothing contribute no entry.
     public func endCollect() async -> ModuleCollection {
         
         var collection = ModuleCollection()
         
         for module in modules {
-            do {
-                try await module.collect(into: &collection)
-            } catch {
-                handleError(module: module)
-            }
+            await module.collect(into: &collection)
         }
         
         return collection
@@ -175,8 +171,8 @@ public final class ModularOrchestrator {
     /// A shared `ConfigureBuilder` is created and passed to the
     /// provided closure for setup before being applied to modules.
     ///
-    /// Errors thrown by individual modules are caught and
-    /// do not interrupt configuration of remaining modules.
+    /// Per-module configuration failures are logged and do not
+    /// interrupt configuration of remaining modules.
     ///
     /// - Parameter build: A closure used to configure the builder.
     public func configure(
@@ -187,11 +183,7 @@ public final class ModularOrchestrator {
         build(builder)
         
         for module in modules {
-            do {
-                try await module.configure(builder)
-            } catch {
-                handleError(module: module)
-            }
+            await module.configure(builder)
         }
     }
     
