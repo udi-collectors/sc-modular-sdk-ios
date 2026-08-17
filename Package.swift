@@ -1,8 +1,20 @@
 // swift-tools-version: 5.9
 // Copyright (c) Experian, 2026. All rights reserved.
 import PackageDescription
+import Foundation
 
-let package = Package(
+// The published full-sdk artifact ships Package.swift + Sources only: the test
+// sources are internal and the zip is mirrored to a public GitHub repo. SwiftPM
+// refuses to load a manifest whose target path is absent ("invalid custom path
+// ... for target ModularSDKTests"), so the test target has to be declared only
+// when the directory is actually there. In this repo it always is, so local and
+// CI builds keep running the tests unchanged.
+let modularSDKTestsPath = "Tests/ModularSDKTests/"
+let hasModularSDKTests = FileManager.default.fileExists(
+    atPath: "\(Context.packageDirectory)/\(modularSDKTestsPath)"
+)
+
+var package = Package(
     name: "ModularSDK",
     platforms: [.iOS(.v15)],
 
@@ -26,7 +38,6 @@ let package = Package(
             name: "ModularSDK",
             dependencies: []
         ),
-        
         
         .target(name: "Core", path: "Sources/Core/"),
         
@@ -53,3 +64,13 @@ let package = Package(
         ),
     ]
 )
+
+if hasModularSDKTests {
+    package.targets.append(
+        .testTarget(
+            name: "ModularSDKTests",
+            dependencies: ["ModularSDK", "Core"],
+            path: modularSDKTestsPath
+        )
+    )
+}

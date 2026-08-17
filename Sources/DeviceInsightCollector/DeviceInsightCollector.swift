@@ -12,11 +12,11 @@ import DeviceInsight
 #endif
 
 
-/// Contract defining a dependency‑injected data collector.
+/// Contract defining a Device Insight data collector.
 ///
 /// `DICollecting` provides both synchronous and asynchronous collection APIs
-/// that return a lightweight tuple result. This protocol is typically used
-/// when the collector implementation is supplied via dependency injection.
+/// that return a lightweight tuple result. This protocol is adopted by the
+/// Device Insight collector implementation.
 public protocol DICollecting {
 
     /// Performs data collection synchronously.
@@ -33,14 +33,6 @@ public protocol DICollecting {
     ///   - `Int?`: An optional numeric identifier or status code associated with the collection.
     func collectAsync() async -> (String?, Int?)
 }
-
-/// Typed response produced by the Device Insight collector.
-///
-/// - `payload`: The raw serialized payload returned by the underlying
-///   Device Insight collector (e.g., JSON or another text format).
-/// - `errorCode`: An optional error code produced by the collector; empty
-///   string when collection succeeds without errors.
-public typealias DIResponse = (String?, Int?)
 
 /// A `Module` implementation that integrates the **Device Insight** collector
 /// into the Modular SDK orchestration flow.
@@ -106,7 +98,8 @@ public final class DICollectorModule: Module {
         return .success(payload)
     }
     
-    public func configure(_ configure: UDIConfig) async -> ModuleResult<Void> {
+    /// This module takes no runtime configuration.
+    public func configure(_ configure: Void) async -> ModuleResult<Void> {
         return .success(())
     }
 }
@@ -122,8 +115,6 @@ public final class DICollectorModule: Module {
 public func loadDiModule() {
     ModularOrchestrator.shared.register(DICollectorModule())
 }
-#endif
 
-#if canImport(DeviceInsight)
 extension DeviceInsightCollector: DICollecting { }
 #endif

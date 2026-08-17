@@ -18,7 +18,7 @@ public enum Modules: Hashable {
     /// Standard UDI collector module.
     case collector
     
-    /// Dependency-injected collector module.
+    /// Device Insight collector module.
     case diCollector
 }
 

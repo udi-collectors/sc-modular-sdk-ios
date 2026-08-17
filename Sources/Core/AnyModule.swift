@@ -39,7 +39,8 @@ public protocol AnyModule {
     /// inserting it into the shared `ModuleCollection`.
     ///
     /// - Parameter collection: The collection used to aggregate module results.
-    /// - Throws: Rethrows any error produced during result finalization.
+    /// - Note: Non-throwing. A module failure is recorded in `collection`
+    ///   as a `ModuleError` rather than propagated to the caller.
     func collect(into collection: inout ModuleCollection) async
     
     /// Performs asynchronous initialization or setup.

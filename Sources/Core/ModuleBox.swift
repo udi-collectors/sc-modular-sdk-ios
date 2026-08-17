@@ -38,6 +38,8 @@ public final class ModuleBox<M: Module>: AnyModule {
     /// Behavior:
     /// - If no config was set for the module's key, the configure is
     ///   skipped and logged at `.default` (a missing config can be legitimate).
+    ///   `.default` is the closest warning-equivalent level: `OSLogType` has no
+    ///   `.warning` case, and `.error` would overstate a legitimate condition.
     /// - If a config was set but fails to cast to `M.Config`, the configure
     ///   is skipped and logged at `.error`.
     /// - If the module's `configure` returns `.failure`, the failure is

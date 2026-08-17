@@ -77,7 +77,8 @@ public protocol UDICollecting {
 /// - Sync APIs are provided for environments where async is not available.
 ///
 /// - Important: Calling `endCollect()` before a successful collection
-///   results in a runtime failure.
+///   returns `nil` rather than failing. No payload is reported and the
+///   module contributes no entry to `ModuleCollection`.
 public final class CollectorModule: Module {
     
     public var key = ModuleKeys.udi
