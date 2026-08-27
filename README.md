@@ -1,2 +1,2 @@
-# sc-modular-sdk-ios
+# modular-ios
 Modular SDK iOS
