@@ -3,11 +3,18 @@
 //  Core.swift
 //  ModularSDK
 //
-//
 
+@_exported import Core
+
+/**
+ * Public entry type for the Modular SDK product.
+ *
+ * Re-exports `Core` so consumers can `import ModularSDK` and use orchestrator APIs.
+ */
 public struct ModularSDK {
-    
-    public static func start() {
-    
+
+    @discardableResult
+    public static func start() -> ModuleLoadingResult {
+        ModulesLoader.start()
     }
 }

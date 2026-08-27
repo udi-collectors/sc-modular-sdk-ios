@@ -43,3 +43,20 @@ public class ModuleKey<Value>: Hashable {
         hasher.combine(ObjectIdentifier(self))
     }
 }
+
+/// A module key that also associates the module's runtime configuration type.
+///
+/// The `Config` generic parameter is what this type adds: it lets
+/// `ConfigureBuilder.setConfig(for:config:)` accept only a value matching the
+/// key's declared configuration type, so a caller cannot assign an arbitrary
+/// value to a module key.
+public final class ConfigurableModuleKey<Value, Config>: ModuleKey<Value> {
+
+    /// Creates a key whose configuration entries must be of type `Config`.
+    ///
+    /// - Parameter name: A descriptive name for the key, used for
+    ///   identification during debugging.
+    public override init(_ name: String) {
+        super.init(name)
+    }
+}

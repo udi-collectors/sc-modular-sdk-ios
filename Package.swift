@@ -16,12 +16,16 @@ let hasModularSDKTests = FileManager.default.fileExists(
 
 var package = Package(
     name: "ModularSDK",
-    platforms: [.iOS(.v15)],
+    // 15.6, not 15.0: the DeviceInsight binary target is built with a 15.6
+    // deployment target (`minos 15.6` in both slices), so a consumer below that
+    // would resolve the package and then link a dylib built for a newer OS.
+    // Stating the real floor makes that a resolve-time error, not a link warning.
+    platforms: [.iOS("15.6")],
 
     products: [
         .library(
             name: "ModularSDK",
-            type: .dynamic,
+            type: .static,
             targets: ["ModularSDK"]
         ),
         
@@ -36,12 +40,12 @@ var package = Package(
 
         .target(
             name: "ModularSDK",
-            dependencies: []
+            dependencies: ["Core"]
         ),
         
         .target(name: "Core", path: "Sources/Core/"),
         
-        // MARK: - Collectors (UDI / DI)
+        // MARK: - Collectors (DeviceIntelligence / DeviceInsight)
         .target(
             name: "DeviceIntelligenceCollector",
             dependencies: ["Core", "UDI"]),
@@ -53,13 +57,13 @@ var package = Package(
         // MARK: - Binary targets
         .binaryTarget(
             name: "DeviceInsight",
-            url: "https://github.com/udi-collectors/deviceinsight-collector-ios/releases/download/8.0.9/deviceinsight-collector-ios-xcframework-8.0.9.zip",
-            checksum: "1af16d7e2027c6980d7e88a34f7e6157fa7f77013d0d865704038bef1cfdf415"
+            url: "https://github.com/experian-collectors/deviceinsight-ios/releases/download/8.0.3/deviceinsight-collector-ios-xcframework-8.0.3.zip",
+            checksum: "59bfb1db622d3ca7f7ab781da6883a8fc7593a2cb5de5d2c6725cca252709a64"
         ),
         
         .binaryTarget(
             name: "UDI",
-            url: "https://github.com/udi-collectors/udi-collector-ios/releases/download/9.4.0/udi-collector-ios-xcframework-9.4.0.zip",
+            url: "https://github.com/experian-collectors/deviceintelligence-ios/releases/download/9.4.0/deviceintelligence-collector-ios-xcframework-9.4.0.zip",
             checksum: "e89bf832eccbde2cf9b56ccf595344ab5547cae009caa287b53456e15c022e56"
         ),
     ]
@@ -69,7 +73,12 @@ if hasModularSDKTests {
     package.targets.append(
         .testTarget(
             name: "ModularSDKTests",
-            dependencies: ["ModularSDK", "Core"],
+            dependencies: [
+                "ModularSDK",
+                "Core",
+                "DeviceIntelligenceCollector",
+                "DeviceInsightCollector"
+            ],
             path: modularSDKTestsPath
         )
     )

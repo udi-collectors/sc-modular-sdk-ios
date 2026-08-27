@@ -19,11 +19,13 @@ public struct ModuleCollection {
     /// Stores both success and failure using `Result<Value, Error>`.
     private var storage: [ObjectIdentifier: Any] = [:]
     
-    public init() {}
+    public init() {
+        // Results are inserted by the orchestrator after modules finish.
+    }
     
     // MARK: - Insert Success
     
-    public mutating func insert<Value>(
+    mutating func insert<Value>(
         _ key: ModuleKey<Value>,
         value: Value
     ) {
@@ -32,7 +34,7 @@ public struct ModuleCollection {
     
     // MARK: - Insert Failure
     
-    public mutating func insertError<Value>(
+    mutating func insertError<Value>(
         _ key: ModuleKey<Value>,
         error: Error
     ) {
